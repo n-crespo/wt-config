@@ -7,7 +7,29 @@
         "action": "sendInput",
         "input": "\u0018"
       },
+      "id": "User.sendInput.E12A010D",
       "keys": "ctrl+;"
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "auto",
+        "splitMode": "duplicate"
+      },
+      "id": "User.splitPane.A6751878",
+      "keys": "alt+shift+d"
+    },
+    {
+      "command": "openNewTabDropdown",
+      "id": "User.openNewTabDropdown",
+      "keys": "ctrl+alt+shift+space"
+    },
+    {
+      "command": {
+        "action": "newTab"
+      },
+      "id": "User.newTab.5DEADB41",
+      "keys": "ctrl+shift+space"
     },
     {
       "command": {
@@ -28,26 +50,10 @@
     {
       "command": {
         "action": "sendInput",
-        "input": "\u001b[27;6;74~"
-      },
-      "id": "User.sendInput.4EE91FB0",
-      "keys": "ctrl+shift+j"
-    },
-    {
-      "command": {
-        "action": "sendInput",
         "input": "\u001b[13;2u"
       },
       "id": "User.sendInput.8882FD6D",
       "keys": "shift+enter"
-    },
-    {
-      "command": {
-        "action": "sendInput",
-        "input": "\u001b[27;6;72~"
-      },
-      "id": "User.sendInput.AA2A5711",
-      "keys": "ctrl+shift+h"
     },
     {
       "command": {
@@ -76,10 +82,32 @@
     {
       "command": {
         "action": "sendInput",
+        "input": "\u001b[27;6;74~"
+      },
+      "id": "User.sendInput.4EE91FB0",
+      "keys": "ctrl+shift+j"
+    },
+    {
+      "command": {
+        "action": "prevTab"
+      },
+      "id": "User.sendInput.AA2A5711",
+      "keys": "ctrl+shift+h"
+    },
+    {
+      "command": {
+        "action": "sendInput",
         "input": "\u001b[27;6;75~"
       },
       "id": "User.sendInput.1B3ED23C",
       "keys": "ctrl+shift+k"
+    },
+    {
+      "command": {
+        "action": "nextTab"
+      },
+      "id": "User.sendInput.869E8DA",
+      "keys": "ctrl+shift+l"
     },
     {
       "command": {
@@ -88,14 +116,6 @@
       },
       "id": "User.sendInput.4D228FFA",
       "keys": "ctrl+shift+a"
-    },
-    {
-      "command": {
-        "action": "sendInput",
-        "input": "\u001b[27;6;76~"
-      },
-      "id": "User.sendInput.869E8DA",
-      "keys": "ctrl+shift+l"
     },
     {
       "command": {
@@ -138,15 +158,6 @@
       "keys": "ctrl+period"
     },
     {
-      "command": {
-        "action": "splitPane",
-        "split": "auto",
-        "splitMode": "duplicate"
-      },
-      "id": "User.splitPane.A6751878",
-      "keys": "alt+shift+d"
-    },
-    {
       "command": "find",
       "id": "User.find",
       "keys": "ctrl+shift+f"
@@ -156,6 +167,7 @@
   "copyFormatting": "none",
   "copyOnSelect": false,
   "defaultProfile": "{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}",
+  "firstWindowPreference": "persistedWindowLayout",
   "focusFollowMouse": true,
   "launchMode": "focus",
   "newTabMenu": [
@@ -253,26 +265,26 @@
   "schemes": [
     {
       "background": "#181616",
-      "black": "#0d0c0c",
-      "blue": "#8ba4b0",
+      "black": "#0D0C0C",
+      "blue": "#8BA4B0",
       "brightBlack": "#393836",
-      "brightBlue": "#7fb4ca",
-      "brightCyan": "#7aa89f",
-      "brightGreen": "#87a987",
-      "brightPurple": "#938aa9",
-      "brightRed": "#e46876",
-      "brightYellow": "#dca561",
-      "cursorColor": "#89ca78",
-      "cyan": "#95aeac",
+      "brightBlue": "#7FB4CA",
+      "brightCyan": "#7AA89F",
+      "brightGreen": "#87A987",
+      "brightPurple": "#938AA9",
+      "brightRed": "#E46876",
+      "brightWhite": "#C5C9C5",
+      "brightYellow": "#DCA561",
+      "cursorColor": "#89CA78",
+      "cyan": "#95AEAC",
       "foreground": "#FFFFFF",
-      "green": "#8a9a7b",
+      "green": "#8A9A7B",
       "name": "Macro",
-      "purple": "#a292a3",
-      "red": "#c4746e",
+      "purple": "#A292A3",
+      "red": "#C4746E",
       "selectionBackground": "#FFFFFF",
-      "brightWhite": "#c5c9c5",
-      "white": "#b4b3a7",
-      "yellow": "#c8ae81"
+      "white": "#B4B3A7",
+      "yellow": "#C8AE81"
     },
     {
       "background": "#181616",
@@ -304,3 +316,4 @@
   "themes": [],
   "useAcrylicInTabRow": true
 }
+
