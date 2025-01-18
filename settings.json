@@ -175,7 +175,7 @@
       },
       "intenseTextStyle": "none",
       "opacity": 100,
-      "padding": "0, 2, 0, 2",
+      "padding": "0, 4, 0, 2",
       "scrollbarState": "hidden",
       "startingDirectory": "%USERPROFILE%",
       "useAcrylic": true
