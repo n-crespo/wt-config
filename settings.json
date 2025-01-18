@@ -166,7 +166,7 @@
   "profiles": {
     "defaults": {
       "antialiasingMode": "grayscale",
-      "colorScheme": "Color Scheme 12",
+      "colorScheme": "Macro",
       "cursorShape": "filledBox",
       "font": {
         "cellHeight": "1.5",
@@ -207,7 +207,7 @@
         "source": "Windows.Terminal.Azure"
       },
       {
-        "colorScheme": "Color Scheme 12",
+        "colorScheme": "Macro",
         "experimental.retroTerminalEffect": false,
         "font": {
           "cellHeight": "1.4"
@@ -253,26 +253,26 @@
   "schemes": [
     {
       "background": "#181616",
-      "black": "#0C0C0C",
-      "blue": "#0037DA",
-      "brightBlack": "#767676",
-      "brightBlue": "#3B78FF",
-      "brightCyan": "#61D6D6",
-      "brightGreen": "#16C60C",
-      "brightPurple": "#B4009E",
-      "brightRed": "#E74856",
-      "brightWhite": "#F2F2F2",
-      "brightYellow": "#F9F1A5",
-      "cursorColor": "#FFFFFF",
-      "cyan": "#3A96DD",
+      "black": "#0d0c0c",
+      "blue": "#8ba4b0",
+      "brightBlack": "#393836",
+      "brightBlue": "#7fb4ca",
+      "brightCyan": "#7aa89f",
+      "brightGreen": "#87a987",
+      "brightPurple": "#938aa9",
+      "brightRed": "#e46876",
+      "brightYellow": "#dca561",
+      "cursorColor": "#89ca78",
+      "cyan": "#95aeac",
       "foreground": "#FFFFFF",
-      "green": "#13A10E",
-      "name": "Color Scheme 12",
-      "purple": "#881798",
-      "red": "#C50F1F",
+      "green": "#8a9a7b",
+      "name": "Macro",
+      "purple": "#a292a3",
+      "red": "#c4746e",
       "selectionBackground": "#FFFFFF",
-      "white": "#CCCCCC",
-      "yellow": "#C19C00"
+      "brightWhite": "#c5c9c5",
+      "white": "#b4b3a7",
+      "yellow": "#c8ae81"
     },
     {
       "background": "#181616",
