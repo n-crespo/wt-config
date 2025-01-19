@@ -278,7 +278,7 @@
       "brightYellow": "#DCA561",
       "cursorColor": "#89CA78",
       "cyan": "#95AEAC",
-      "foreground": "#FFFFFF",
+      "foreground": "#C5C9C5",
       "green": "#8A9A7B",
       "name": "Macro",
       "purple": "#A292A3",
@@ -299,7 +299,7 @@
       "brightRed": "#FF0000",
       "brightWhite": "#FFFFFF",
       "brightYellow": "#FFFF00",
-      "cursorColor": "#FFFFFF",
+      "cursorColor": "#89ca78",
       "cyan": "#008080",
       "foreground": "#C0C0C0",
       "green": "#008000",
@@ -317,4 +317,3 @@
   "themes": [],
   "useAcrylicInTabRow": true
 }
-
