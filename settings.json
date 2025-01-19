@@ -12,13 +12,6 @@
     },
     {
       "command": {
-        "action": "newTab"
-      },
-      "id": "User.newTab.5DEADB41",
-      "keys": "ctrl+shift+space"
-    },
-    {
-      "command": {
         "action": "splitPane",
         "split": "auto",
         "splitMode": "duplicate"
@@ -30,6 +23,13 @@
       "command": "openNewTabDropdown",
       "id": "User.openNewTabDropdown",
       "keys": "ctrl+alt+shift+space"
+    },
+    {
+      "command": {
+        "action": "newTab"
+      },
+      "id": "User.newTab.5DEADB41",
+      "keys": "ctrl+shift+space"
     },
     {
       "command": {
@@ -182,6 +182,7 @@
       "cursorShape": "filledBox",
       "font": {
         "cellHeight": "1.5",
+        "colorGlyphs": true,
         "face": "JetBrainsMono Nerd Font",
         "size": 10
       },
