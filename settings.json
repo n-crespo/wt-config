@@ -163,12 +163,15 @@
       "keys": "ctrl+shift+f"
     }
   ],
+  "alwaysShowNotificationIcon": false,
   "alwaysShowTabs": true,
   "copyFormatting": "none",
   "copyOnSelect": false,
   "defaultProfile": "{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}",
+  "disableAnimations": false,
   "firstWindowPreference": "persistedWindowLayout",
   "focusFollowMouse": true,
+  "tabSwitcherMode": "disabled",
   "launchMode": "focus",
   "newTabMenu": [
     {
@@ -178,6 +181,7 @@
   "profiles": {
     "defaults": {
       "antialiasingMode": "grayscale",
+      "bellStyle": "none",
       "colorScheme": "Macro",
       "cursorShape": "filledBox",
       "font": {
@@ -191,6 +195,7 @@
       "padding": "0, 4, 0, 2",
       "scrollbarState": "hidden",
       "startingDirectory": "%USERPROFILE%",
+      "suppressApplicationTitle": false,
       "useAcrylic": true
     },
     "list": [
@@ -251,8 +256,7 @@
         "guid": "{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}",
         "hidden": false,
         "name": "Ubuntu 22.04.5 LTS",
-        "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
-        "tabTitle": "WSL"
+        "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc"
       }
     ]
   },
@@ -267,7 +271,7 @@
       "brightGreen": "#87A987",
       "brightPurple": "#938AA9",
       "brightRed": "#E46876",
-      "brightWhite": "#ffffff",
+      "brightWhite": "#FFFFFF",
       "brightYellow": "#DCA561",
       "cursorColor": "#89CA78",
       "cyan": "#95AEAC",
@@ -277,7 +281,7 @@
       "purple": "#A292A3",
       "red": "#C4746E",
       "selectionBackground": "#FFFFFF",
-      "white": "#c5c9c5",
+      "white": "#C5C9C5",
       "yellow": "#C8AE81"
     }
   ],
@@ -287,3 +291,4 @@
   "themes": [],
   "useAcrylicInTabRow": true
 }
+
