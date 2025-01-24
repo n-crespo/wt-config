@@ -12,6 +12,14 @@
     },
     {
       "command": {
+        "action": "sendInput",
+        "input": "\u0008"
+      },
+      "id": "User.sendInput.E12A010D",
+      "keys": "ctrl+h"
+    },
+    {
+      "command": {
         "action": "splitPane",
         "split": "auto",
         "splitMode": "duplicate"
@@ -291,4 +299,3 @@
   "themes": [],
   "useAcrylicInTabRow": true
 }
-
