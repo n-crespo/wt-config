@@ -5,7 +5,15 @@
     {
       "command": {
         "action": "sendInput",
-        "input": "\u0018"
+        "input": "\u001b[27;5;67~"
+      },
+      "id": "User.sendInput.CTRLSHIFTC",
+      "keys": "ctrl+shift+c"
+    },
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[27;5;59~"
       },
       "id": "User.sendInput.E12A010D",
       "keys": "ctrl+;"
