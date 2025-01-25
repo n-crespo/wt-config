@@ -158,10 +158,7 @@
       "keys": "ctrl+shift+s"
     },
     {
-      "command": {
-        "action": "sendInput",
-        "input": "\u001b[27;6;15~"
-      },
+      "command": "toggleFocusMode",
       "id": "User.sendInput.67503D3D",
       "keys": "ctrl+shift+o"
     },
