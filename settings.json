@@ -21,7 +21,7 @@
     {
       "command": {
         "action": "sendInput",
-        "input": "\u0008"
+        "input": "\b"
       },
       "id": "User.sendInput.E12A010D",
       "keys": "ctrl+h"
@@ -187,7 +187,6 @@
   "disableAnimations": false,
   "firstWindowPreference": "persistedWindowLayout",
   "focusFollowMouse": true,
-  "tabSwitcherMode": "disabled",
   "launchMode": "focus",
   "newTabMenu": [
     {
@@ -212,7 +211,7 @@
       "scrollbarState": "hidden",
       "startingDirectory": "%USERPROFILE%",
       "suppressApplicationTitle": false,
-      "useAcrylic": true
+      "useAcrylic": false
     },
     "list": [
       {
@@ -302,8 +301,10 @@
     }
   ],
   "showTabsInTitlebar": true,
+  "tabSwitcherMode": "disabled",
   "tabWidthMode": "equal",
   "theme": "dark",
   "themes": [],
   "useAcrylicInTabRow": true
 }
+
