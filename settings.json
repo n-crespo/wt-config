@@ -5,24 +5,6 @@
     {
       "command": {
         "action": "sendInput",
-        "input": "\u001b[13;2u"
-      },
-      "id": "User.sendInput.shiftEnter"
-    },
-    {
-      "command": "openNewTabDropdown",
-      "id": "User.openNewTabDropdown"
-    },
-    {
-      "command": {
-        "action": "sendInput",
-        "input": "\u001b[27;6;17~"
-      },
-      "id": "User.sendInput.ctrlShiftQ"
-    },
-    {
-      "command": {
-        "action": "sendInput",
         "input": "\u001b[27;6;1~"
       },
       "id": "User.sendInput.ctrlShiftA"
@@ -35,17 +17,35 @@
       "id": "User.sendInput.ctrlI"
     },
     {
-      "command": {
-        "action": "nextTab"
-      },
-      "id": "User.sendInput.ctrlShiftL"
+      "command": "openNewTabDropdown",
+      "id": "User.openNewTabDropdown"
     },
     {
       "command": {
         "action": "sendInput",
-        "input": "\u001b[27;6;75~"
+        "input": "\u001b[13;2u"
       },
-      "id": "User.sendInput.ctrlShiftK"
+      "id": "User.sendInput.shiftEnter"
+    },
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[27;6;17~"
+      },
+      "id": "User.sendInput.ctrlShiftQ"
+    },
+    {
+      "command": {
+        "action": "copy",
+        "singleLine": false
+      },
+      "id": "User.copy.ctrlC"
+    },
+    {
+      "command": {
+        "action": "nextTab"
+      },
+      "id": "User.sendInput.ctrlShiftL"
     },
     {
       "command": {
@@ -56,10 +56,10 @@
     },
     {
       "command": {
-        "action": "copy",
-        "singleLine": false
+        "action": "sendInput",
+        "input": "\u001b[27;6;75~"
       },
-      "id": "User.copy.ctrlC"
+      "id": "User.sendInput.ctrlShiftK"
     },
     {
       "command": {
@@ -82,15 +82,15 @@
       "id": "User.sendInput.ctrlShiftForwardSlash"
     },
     {
-      "command": "find",
-      "id": "User.find"
-    },
-    {
       "command": {
         "action": "sendInput",
         "input": "\b"
       },
       "id": "User.sendInput.ctrlH"
+    },
+    {
+      "command": "find",
+      "id": "User.find"
     },
     {
       "command": {
@@ -101,18 +101,18 @@
     },
     {
       "command": {
-        "action": "sendInput",
-        "input": "\u001b[13;5u"
-      },
-      "id": "User.sendInput.ctrlEnter"
-    },
-    {
-      "command": {
         "action": "splitPane",
         "split": "auto",
         "splitMode": "duplicate"
       },
       "id": "User.splitPane.A6751878"
+    },
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[13;5u"
+      },
+      "id": "User.sendInput.ctrlEnter"
     },
     {
       "command": {
@@ -158,7 +158,8 @@
   ],
   "alwaysShowNotificationIcon": false,
   "alwaysShowTabs": true,
-  "copyFormatting": true,
+  "compatibility.allowHeadless": true,
+  "copyFormatting": "all",
   "copyOnSelect": false,
   "defaultProfile": "{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}",
   "disableAnimations": true,
@@ -167,20 +168,20 @@
   "focusFollowMouse": false,
   "keybindings": [
     {
-      "id": "Terminal.MoveFocusUp",
-      "keys": "ctrl+alt+k"
-    },
-    {
-      "id": "Terminal.MoveFocusRight",
-      "keys": "ctrl+alt+l"
+      "id": "Terminal.SplitPaneDown",
+      "keys": "ctrl+alt+minus"
     },
     {
       "id": "Terminal.ToggleFocusMode",
       "keys": "ctrl+shift+t"
     },
     {
-      "id": "Terminal.SplitPaneDown",
-      "keys": "ctrl+alt+minus"
+      "id": "Terminal.MoveFocusRight",
+      "keys": "ctrl+alt+l"
+    },
+    {
+      "id": "Terminal.MoveFocusUp",
+      "keys": "ctrl+alt+k"
     },
     {
       "id": "Terminal.MoveFocusLeft",
@@ -283,7 +284,7 @@
       "keys": "ctrl+i"
     }
   ],
-  "launchMode": "focus",
+  "launchMode": "default",
   "newTabMenu": [
     {
       "type": "remainingProfiles"
@@ -304,6 +305,7 @@
       "intenseTextStyle": "bold",
       "opacity": 0,
       "padding": "0, 6, 0, 0",
+      "pathTranslationStyle": "none",
       "scrollbarState": "hidden",
       "startingDirectory": "%USERPROFILE%",
       "suppressApplicationTitle": false,
@@ -337,6 +339,7 @@
         "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
         "hidden": true,
         "name": "Ubuntu",
+        "pathTranslationStyle": "wsl",
         "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
       },
       {
@@ -407,9 +410,9 @@
   "snapToGridOnResize": false,
   "startOnUserLogin": true,
   "tabSwitcherMode": "disabled",
-  "tabWidthMode": "equal",
+  "tabWidthMode": "titleLength",
   "theme": "dark",
   "themes": [],
-  "useAcrylicInTabRow": false
+  "useAcrylicInTabRow": true
 }
 
