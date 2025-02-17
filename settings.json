@@ -1,63 +1,96 @@
 {
   "$help": "https://aka.ms/terminal-documentation",
-  "$schema": "https://aka.ms/terminal-profiles-schema-preview",
-  "snapToGridOnResize": false,
-  "experimental.detectURLs": true,
+  "$schema": "https://aka.ms/terminal-profiles-schema",
   "actions": [
-    {
-      "command": {
-        "action": "nextTab"
-      },
-      "id": "User.sendInput.869E8DA"
-    },
-    {
-      "command": {
-        "action": "sendInput",
-        "input": "\u001b[27;6;75~"
-      },
-      "id": "User.sendInput.1B3ED23C"
-    },
-    {
-      "command": {
-        "action": "copy",
-        "singleLine": false
-      },
-      "id": "User.copy.644BA8F2"
-    },
-    {
-      "command": {
-        "action": "sendInput",
-        "input": "\u001b[27;6;47~"
-      },
-      "id": "User.sendInput.3ED92D7F"
-    },
-    {
-      "command": {
-        "action": "sendInput",
-        "input": "\u001b[27;5;47~"
-      },
-      "id": "User.sendInput.18BB5BD6"
-    },
     {
       "command": {
         "action": "sendInput",
         "input": "\u001b[13;2u"
       },
-      "id": "User.sendInput.8882FD6D"
+      "id": "User.sendInput.shiftEnter"
+    },
+    {
+      "command": "openNewTabDropdown",
+      "id": "User.openNewTabDropdown"
     },
     {
       "command": {
         "action": "sendInput",
         "input": "\u001b[27;6;17~"
       },
-      "id": "User.sendInput.E28ED4AA"
+      "id": "User.sendInput.ctrlShiftQ"
+    },
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[27;6;1~"
+      },
+      "id": "User.sendInput.ctrlShiftA"
+    },
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\t"
+      },
+      "id": "User.sendInput.ctrlI"
+    },
+    {
+      "command": {
+        "action": "nextTab"
+      },
+      "id": "User.sendInput.ctrlShiftL"
+    },
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[27;6;75~"
+      },
+      "id": "User.sendInput.ctrlShiftK"
+    },
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[27;5;59~"
+      },
+      "id": "User.sendInput.ctrlSemiColon"
+    },
+    {
+      "command": {
+        "action": "copy",
+        "singleLine": false
+      },
+      "id": "User.copy.ctrlC"
+    },
+    {
+      "command": {
+        "action": "newTab"
+      },
+      "id": "User.newTab.ctrlSpace"
+    },
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[27;5;47~"
+      },
+      "id": "User.sendInput.ctrlForwardSlash"
+    },
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[27;6;47~"
+      },
+      "id": "User.sendInput.ctrlShiftForwardSlash"
+    },
+    {
+      "command": "find",
+      "id": "User.find"
     },
     {
       "command": {
         "action": "sendInput",
         "input": "\b"
       },
-      "id": "User.sendInput.E12A010D"
+      "id": "User.sendInput.ctrlH"
     },
     {
       "command": {
@@ -67,8 +100,11 @@
       "id": "User.sendInput.CTRLSHIFTC"
     },
     {
-      "command": "openNewTabDropdown",
-      "id": "User.openNewTabDropdown"
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[13;5u"
+      },
+      "id": "User.sendInput.ctrlEnter"
     },
     {
       "command": {
@@ -80,102 +116,75 @@
     },
     {
       "command": {
-        "action": "newTab"
-      },
-      "id": "User.newTab.5DEADB41"
-    },
-    {
-      "command": {
         "action": "sendInput",
         "input": "\u0017"
       },
-      "id": "User.sendInput.817164EE"
-    },
-    {
-      "command": {
-        "action": "sendInput",
-        "input": "\u001b[13;5u"
-      },
-      "id": "User.sendInput.F8A79DCB"
+      "id": "User.sendInput.ctrlBackspace"
     },
     {
       "command": {
         "action": "sendInput",
         "input": "\u001b[27;6;90~"
       },
-      "id": "User.sendInput.AC9B6782"
+      "id": "User.sendInput.ctrlShiftZ"
     },
     {
       "command": {
         "action": "sendInput",
         "input": "\u001b[27;6;74~"
       },
-      "id": "User.sendInput.4EE91FB0"
+      "id": "User.sendInput.ctrlShiftJ"
     },
     {
       "command": {
         "action": "prevTab"
       },
-      "id": "User.sendInput.AA2A5711"
-    },
-    {
-      "command": {
-        "action": "sendInput",
-        "input": "\u001b[27;6;1~"
-      },
-      "id": "User.sendInput.4D228FFA"
+      "id": "User.sendInput.ctrlShiftH"
     },
     {
       "command": {
         "action": "sendInput",
         "input": "\u001b[27;5;46~"
       },
-      "id": "User.sendInput.4E4C1E5F"
+      "id": "User.sendInput.ctrlPeriod"
     },
     {
       "command": {
         "action": "sendInput",
         "input": "\u001b[27;6;19~"
       },
-      "id": "User.sendInput.3E2F8381"
-    },
-    {
-      "command": "find",
-      "id": "User.find"
+      "id": "User.sendInput.ctrlShiftS"
     }
   ],
   "alwaysShowNotificationIcon": false,
   "alwaysShowTabs": true,
-  "copyFormatting": "none",
+  "copyFormatting": true,
   "copyOnSelect": false,
   "defaultProfile": "{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}",
   "disableAnimations": true,
+  "experimental.detectURLs": true,
   "firstWindowPreference": "persistedWindowLayout",
   "focusFollowMouse": false,
   "keybindings": [
     {
-      "id": "Terminal.SplitPaneDown",
-      "keys": "ctrl+alt+minus"
-    },
-    {
-      "id": "Terminal.ToggleFocusMode",
-      "keys": "ctrl+shift+t"
+      "id": "Terminal.MoveFocusUp",
+      "keys": "ctrl+alt+k"
     },
     {
       "id": "Terminal.MoveFocusRight",
       "keys": "ctrl+alt+l"
     },
     {
-      "id": "Terminal.MoveFocusUp",
-      "keys": "ctrl+alt+k"
+      "id": "Terminal.ToggleFocusMode",
+      "keys": "ctrl+shift+t"
+    },
+    {
+      "id": "Terminal.SplitPaneDown",
+      "keys": "ctrl+alt+minus"
     },
     {
       "id": "Terminal.MoveFocusLeft",
       "keys": "ctrl+alt+h"
-    },
-    {
-      "id": "Terminal.ToggleCommandPalette",
-      "keys": "ctrl+alt+p"
     },
     {
       "id": "Terminal.MoveFocusDown",
@@ -186,96 +195,92 @@
       "keys": "ctrl+alt+\\"
     },
     {
-      "id": "User.sendInput.1B3ED23C",
-      "keys": "ctrl+shift+k"
-    },
-    {
-      "id": "User.copy.644BA8F2",
+      "id": "User.copy.ctrlC",
       "keys": "ctrl+c"
     },
     {
-      "id": "User.sendInput.18BB5BD6",
+      "id": "User.sendInput.ctrlShiftK",
+      "keys": "ctrl+shift+k"
+    },
+    {
+      "id": "User.sendInput.ctrlForwardSlash",
       "keys": "ctrl+/"
     },
     {
-      "id": "User.sendInput.817164EE",
-      "keys": "ctrl+backspace"
+      "id": "User.sendInput.ctrlShiftForwardSlash",
+      "keys": "ctrl+shift+/"
     },
     {
       "id": "User.sendInput.CTRLSHIFTC",
       "keys": "ctrl+shift+c"
     },
     {
-      "id": "User.sendInput.3ED92D7F",
-      "keys": "ctrl+shift+/"
+      "id": "User.sendInput.ctrlBackspace",
+      "keys": "ctrl+backspace"
     },
     {
-      "id": "User.sendInput.E12A010D",
+      "id": "User.sendInput.ctrlSemiColon",
       "keys": "ctrl+;"
     },
     {
-      "id": "User.sendInput.F8A79DCB",
-      "keys": "ctrl+enter"
-    },
-    {
-      "id": "User.sendInput.E12A010D",
+      "id": "User.sendInput.ctrlH",
       "keys": "ctrl+h"
     },
     {
-      "id": "User.sendInput.3E2F8381",
-      "keys": "ctrl+shift+s"
+      "id": "User.sendInput.ctrlEnter",
+      "keys": "ctrl+enter"
     },
     {
       "id": "User.openNewTabDropdown",
       "keys": "ctrl+alt+shift+space"
     },
     {
-      "id": "User.splitPane.A6751878",
-      "keys": "alt+shift+d"
+      "id": "User.sendInput.ctrlShiftS",
+      "keys": "ctrl+shift+s"
     },
     {
-      "id": "User.newTab.5DEADB41",
+      "id": "User.newTab.ctrlSpace",
       "keys": "ctrl+shift+space"
     },
     {
-      "id": "User.sendInput.E28ED4AA",
+      "id": "User.sendInput.ctrlShiftQ",
       "keys": "ctrl+shift+q"
+    },
+    {
+      "id": "User.sendInput.ctrlShiftZ",
+      "keys": "ctrl+shift+z"
     },
     {
       "id": "User.find",
       "keys": "ctrl+shift+f"
     },
     {
-      "id": "User.sendInput.AC9B6782",
-      "keys": "ctrl+shift+z"
-    },
-    {
-      "id": "User.sendInput.8882FD6D",
+      "id": "User.sendInput.shiftEnter",
       "keys": "shift+enter"
     },
     {
-      "id": "User.sendInput.4EE91FB0",
+      "id": "User.sendInput.ctrlShiftJ",
       "keys": "ctrl+shift+j"
     },
     {
-      "id": "User.sendInput.AA2A5711",
+      "id": "User.sendInput.ctrlShiftH",
       "keys": "ctrl+shift+h"
     },
     {
-      "id": "User.sendInput.869E8DA",
+      "id": "User.sendInput.ctrlShiftL",
       "keys": "ctrl+shift+l"
     },
     {
-      "id": "User.sendInput.4D228FFA",
+      "id": "User.sendInput.ctrlShiftA",
       "keys": "ctrl+shift+a"
     },
     {
-      "id": "User.sendInput.4E4C1E5F",
-      "keys": "ctrl+i"
+      "id": "User.sendInput.ctrlPeriod",
+      "keys": "ctrl+period"
     },
     {
-      "id": "User.sendInput.4E4C1E5F",
-      "keys": "ctrl+period"
+      "id": "User.sendInput.ctrlI",
+      "keys": "ctrl+i"
     }
   ],
   "launchMode": "focus",
@@ -399,9 +404,12 @@
     }
   ],
   "showTabsInTitlebar": true,
+  "snapToGridOnResize": false,
+  "startOnUserLogin": true,
   "tabSwitcherMode": "disabled",
   "tabWidthMode": "equal",
   "theme": "dark",
   "themes": [],
   "useAcrylicInTabRow": false
 }
+

@@ -1,38 +1,35 @@
 {
-	"generatedProfiles" : 
-	[
-		"{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-		"{5fb123f1-af88-5b5c-8953-d14a8def1978}",
-		"{17bf3de4-5353-5709-bcf9-835bd952a95e}",
-		"{2c4de342-38b7-51cf-b940-2309a097f518}",
-		"{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-		"{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
-		"{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}",
-		"{51855cb2-8cce-5362-8f54-464b92b32386}"
-	],
-	"persistedWindowLayouts" : 
-	[
-		{
-			"initialPosition" : "2,52",
-			"initialSize" : 
-			{
-				"height" : 871.5,
-				"width" : 1438
-			},
-			"launchMode" : "focus",
-			"tabLayout" : 
-			[
-				{
-					"action" : "newTab",
-					"commandline" : "ubuntu2204.exe",
-					"profile" : "Ubuntu 22.04.5 LTS",
-					"sessionId" : "{2ebc563c-014d-4467-b6e9-8c9f835d6f8f}",
-					"startingDirectory" : "C:\\Users\\nicol",
-					"suppressApplicationTitle" : false,
-					"tabTitle" : "Ubuntu 22.04.5 LTS"
-				}
-			]
-		}
-	],
-	"settingsHash" : "db1abd27c7bb51f8-01db80e0ce1d8327"
+  "generatedProfiles": [
+    "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "{5fb123f1-af88-5b5c-8953-d14a8def1978}",
+    "{17bf3de4-5353-5709-bcf9-835bd952a95e}",
+    "{2c4de342-38b7-51cf-b940-2309a097f518}",
+    "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+    "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+    "{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}",
+    "{51855cb2-8cce-5362-8f54-464b92b32386}"
+  ],
+  "persistedWindowLayouts": [
+    {
+      "initialPosition": "2,52",
+      "initialSize": {
+        "height": 871.5,
+        "width": 1438
+      },
+      "launchMode": "focus",
+      "tabLayout": [
+        {
+          "action": "newTab",
+          "commandline": "ubuntu2204.exe",
+          "profile": "Ubuntu 22.04.5 LTS",
+          "sessionId": "{2ebc563c-014d-4467-b6e9-8c9f835d6f8f}",
+          "startingDirectory": "C:\\Users\\nicol",
+          "suppressApplicationTitle": false,
+          "tabTitle": "Ubuntu 22.04.5 LTS"
+        }
+      ]
+    }
+  ],
+  "settingsHash": "ac93ccbf0a28a17b-01db80ffc06c04d6"
 }
+
