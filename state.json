@@ -2,14 +2,37 @@
 	"generatedProfiles" : 
 	[
 		"{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-		"{5fb123f1-af88-5b5c-8953-d14a8def1978}",
 		"{17bf3de4-5353-5709-bcf9-835bd952a95e}",
+		"{5fb123f1-af88-5b5c-8953-d14a8def1978}",
 		"{2c4de342-38b7-51cf-b940-2309a097f518}",
 		"{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
 		"{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
-		"{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}",
-		"{51855cb2-8cce-5362-8f54-464b92b32386}"
+		"{51855cb2-8cce-5362-8f54-464b92b32386}",
+		"{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}"
 	],
-	"persistedWindowLayouts" : [],
-	"settingsHash" : "0b60916f12d811ea-01db810f64c9a9a7"
+	"persistedWindowLayouts" : 
+	[
+		{
+			"initialPosition" : "2,52",
+			"initialSize" : 
+			{
+				"height" : 831.5,
+				"width" : 1438
+			},
+			"launchMode" : "default",
+			"tabLayout" : 
+			[
+				{
+					"action" : "newTab",
+					"commandline" : "ubuntu2204.exe",
+					"profile" : "Ubuntu 22.04.5 LTS",
+					"sessionId" : "{f29f4f1b-9a8e-482f-a2c5-f8388e49a052}",
+					"startingDirectory" : "C:\\Users\\nicol",
+					"suppressApplicationTitle" : false,
+					"tabTitle" : "Ubuntu 22.04.5 LTS"
+				}
+			]
+		}
+	],
+	"settingsHash" : "3c24b6394160cc43-01db810fcb36575f"
 }
