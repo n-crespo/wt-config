@@ -3,6 +3,24 @@
   "$schema": "https://aka.ms/terminal-profiles-schema",
   "actions": [
     {
+      "command": "toggleBlockSelection",
+      "id": "Terminal.ToggleBlockSelection"
+    },
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[27;6;19~"
+      },
+      "id": "User.sendInput.ctrlShiftS"
+    },
+    {
+      "command": {
+        "action": "newWindow",
+        "commandline": "wsl -e fish -c \"nvim /mnt/c/Users/nicol/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json\""
+      },
+      "id": "User.newWindow.WSLSettings"
+    },
+    {
       "command": {
         "action": "sendInput",
         "input": "\u001b[27;6;1~"
@@ -26,6 +44,10 @@
         "input": "\u001b[13;2u"
       },
       "id": "User.sendInput.shiftEnter"
+    },
+    {
+      "command": "switchSelectionEndpoint",
+      "id": "Terminal.SwitchSelectionEndpoint"
     },
     {
       "command": {
@@ -147,13 +169,6 @@
         "input": "\u001b[27;5;46~"
       },
       "id": "User.sendInput.ctrlPeriod"
-    },
-    {
-      "command": {
-        "action": "sendInput",
-        "input": "\u001b[27;6;19~"
-      },
-      "id": "User.sendInput.ctrlShiftS"
     }
   ],
   "alwaysShowNotificationIcon": false,
@@ -167,6 +182,14 @@
   "firstWindowPreference": "persistedWindowLayout",
   "focusFollowMouse": false,
   "keybindings": [
+    {
+      "id": "unbound",
+      "keys": "ctrl+shift+,"
+    },
+    {
+      "id": "User.newWindow.WSLSettings",
+      "keys": "ctrl+shift+,"
+    },
     {
       "id": "Terminal.SplitPaneDown",
       "keys": "ctrl+alt+minus"
@@ -222,6 +245,10 @@
     {
       "id": "User.sendInput.ctrlSemiColon",
       "keys": "ctrl+;"
+    },
+    {
+      "id": "User.newWindow.A242E891",
+      "keys": "ctrl+alt+e"
     },
     {
       "id": "User.sendInput.ctrlH",
@@ -282,6 +309,22 @@
     {
       "id": "User.sendInput.ctrlI",
       "keys": "ctrl+i"
+    },
+    {
+      "id": "Terminal.SwitchSelectionEndpoint",
+      "keys": "o"
+    },
+    {
+      "id": "Terminal.ToggleBlockSelection",
+      "keys": "ctrl+shift+v"
+    },
+    {
+      "id": "unbound",
+      "keys": "alt+shift+minus"
+    },
+    {
+      "id": "unbound",
+      "keys": "alt+shift+plus"
     }
   ],
   "launchMode": "focus",
@@ -415,4 +458,3 @@
   "themes": [],
   "useAcrylicInTabRow": true
 }
-
