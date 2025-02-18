@@ -157,7 +157,7 @@
     }
   ],
   "alwaysShowNotificationIcon": false,
-  "alwaysShowTabs": true,
+  "alwaysShowTabs": false,
   "compatibility.allowHeadless": true,
   "copyFormatting": "all",
   "copyOnSelect": false,
@@ -284,7 +284,7 @@
       "keys": "ctrl+i"
     }
   ],
-  "launchMode": "default",
+  "launchMode": "focus",
   "newTabMenu": [
     {
       "type": "remainingProfiles"

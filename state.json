@@ -10,29 +10,6 @@
 		"{51855cb2-8cce-5362-8f54-464b92b32386}",
 		"{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}"
 	],
-	"persistedWindowLayouts" : 
-	[
-		{
-			"initialPosition" : "2,52",
-			"initialSize" : 
-			{
-				"height" : 831.5,
-				"width" : 1438
-			},
-			"launchMode" : "default",
-			"tabLayout" : 
-			[
-				{
-					"action" : "newTab",
-					"commandline" : "ubuntu2204.exe",
-					"profile" : "Ubuntu 22.04.5 LTS",
-					"sessionId" : "{f29f4f1b-9a8e-482f-a2c5-f8388e49a052}",
-					"startingDirectory" : "C:\\Users\\nicol",
-					"suppressApplicationTitle" : false,
-					"tabTitle" : "Ubuntu 22.04.5 LTS"
-				}
-			]
-		}
-	],
-	"settingsHash" : "3c24b6394160cc43-01db810fcb36575f"
+	"persistedWindowLayouts" : [],
+	"settingsHash" : "022e8566b48a1d36-01db81b409655e1c"
 }
