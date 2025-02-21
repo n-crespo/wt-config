@@ -1,8 +1,7 @@
 {
   "$help": "https://aka.ms/terminal-documentation",
   "$schema": "https://aka.ms/terminal-profiles-schema",
-  "actions":
-  [
+  "actions": [
     {
       "command": "paste",
       "id": "Terminal.PasteFromClipboard"
@@ -12,16 +11,14 @@
       "id": "Terminal.SwitchSelectionEndpoint"
     },
     {
-      "command":
-      {
+      "command": {
         "action": "sendInput",
         "input": "\u001b[27;6;17~"
       },
       "id": "User.sendInput.ctrlShiftQ"
     },
     {
-      "command":
-      {
+      "command": {
         "action": "sendInput",
         "input": "\u001b[13;2u"
       },
@@ -32,24 +29,21 @@
       "id": "User.openNewTabDropdown"
     },
     {
-      "command":
-      {
+      "command": {
         "action": "sendInput",
         "input": "\u001b[27;6;1~"
       },
       "id": "User.sendInput.ctrlShiftA"
     },
     {
-      "command":
-      {
+      "command": {
         "action": "sendInput",
         "input": "\t"
       },
       "id": "User.sendInput.ctrlI"
     },
     {
-      "command":
-      {
+      "command": {
         "action": "sendInput",
         "input": "\u001b[27;6;19~"
       },
@@ -60,54 +54,47 @@
       "id": "Terminal.ToggleBlockSelection"
     },
     {
-      "command":
-      {
+      "command": {
         "action": "newWindow",
         "commandline": "wsl -e fish -c \"nvim /mnt/c/Users/nicol/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json\""
       },
       "id": "User.newWindow.WSLSettings"
     },
     {
-      "command":
-      {
+      "command": {
         "action": "sendInput",
         "input": "\u001b[27;5;47~"
       },
       "id": "User.sendInput.ctrlForwardSlash"
     },
     {
-      "command":
-      {
+      "command": {
         "action": "nextTab"
       },
       "id": "User.sendInput.ctrlShiftL"
     },
     {
-      "command":
-      {
+      "command": {
         "action": "sendInput",
         "input": "\u001b[27;5;59~"
       },
       "id": "User.sendInput.ctrlSemiColon"
     },
     {
-      "command":
-      {
+      "command": {
         "action": "sendInput",
         "input": "\u001b[27;6;75~"
       },
       "id": "User.sendInput.ctrlShiftK"
     },
     {
-      "command":
-      {
+      "command": {
         "action": "newTab"
       },
       "id": "User.newTab.ctrlSpace"
     },
     {
-      "command":
-      {
+      "command": {
         "action": "sendInput",
         "input": "\u001b[27;6;47~"
       },
@@ -118,32 +105,28 @@
       "id": "User.find"
     },
     {
-      "command":
-      {
+      "command": {
         "action": "sendInput",
         "input": "\b"
       },
       "id": "User.sendInput.ctrlH"
     },
     {
-      "command":
-      {
+      "command": {
         "action": "sendInput",
         "input": "\u001b[27;5;67~"
       },
       "id": "User.sendInput.CTRLSHIFTC"
     },
     {
-      "command":
-      {
+      "command": {
         "action": "sendInput",
         "input": "\u001b[13;5u"
       },
       "id": "User.sendInput.ctrlEnter"
     },
     {
-      "command":
-      {
+      "command": {
         "action": "splitPane",
         "split": "auto",
         "splitMode": "duplicate"
@@ -151,39 +134,34 @@
       "id": "User.splitPane.A6751878"
     },
     {
-      "command":
-      {
+      "command": {
         "action": "sendInput",
         "input": "\u0017"
       },
       "id": "User.sendInput.ctrlBackspace"
     },
     {
-      "command":
-      {
+      "command": {
         "action": "sendInput",
         "input": "\u001b[27;6;90~"
       },
       "id": "User.sendInput.ctrlShiftZ"
     },
     {
-      "command":
-      {
+      "command": {
         "action": "sendInput",
         "input": "\u001b[27;6;74~"
       },
       "id": "User.sendInput.ctrlShiftJ"
     },
     {
-      "command":
-      {
+      "command": {
         "action": "prevTab"
       },
       "id": "User.sendInput.ctrlShiftH"
     },
     {
-      "command":
-      {
+      "command": {
         "action": "sendInput",
         "input": "\u001b[27;5;46~"
       },
@@ -200,8 +178,7 @@
   "experimental.detectURLs": true,
   "firstWindowPreference": "persistedWindowLayout",
   "focusFollowMouse": false,
-  "keybindings":
-  [
+  "keybindings": [
     {
       "id": "Terminal.MoveFocusLeft",
       "keys": "ctrl+alt+h"
@@ -344,23 +321,19 @@
     }
   ],
   "launchMode": "focus",
-  "newTabMenu":
-  [
+  "newTabMenu": [
     {
       "type": "remainingProfiles"
     }
   ],
   "newTabPosition": "afterCurrentTab",
-  "profiles":
-  {
-    "defaults":
-    {
+  "profiles": {
+    "defaults": {
       "bellStyle": "none",
-      "closeOnExit": "never",
+      "closeOnExit": "always",
       "colorScheme": "Macro",
       "cursorShape": "filledBox",
-      "font":
-      {
+      "font": {
         "cellHeight": "1.5",
         "colorGlyphs": true,
         "face": "JetBrainsMono Nerd Font",
@@ -375,8 +348,7 @@
       "suppressApplicationTitle": true,
       "useAcrylic": true
     },
-    "list":
-    [
+    "list": [
       {
         "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
         "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -398,8 +370,7 @@
       {
         "colorScheme": "Macro",
         "experimental.retroTerminalEffect": false,
-        "font":
-        {
+        "font": {
           "cellHeight": "1.4"
         },
         "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
@@ -451,8 +422,7 @@
       }
     ]
   },
-  "schemes":
-  [
+  "schemes": [
     {
       "background": "#181616",
       "black": "#0D0C0C",
