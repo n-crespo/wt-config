@@ -3,6 +3,10 @@
   "$schema": "https://aka.ms/terminal-profiles-schema",
   "actions": [
     {
+      "command": "paste",
+      "id": "Terminal.PasteFromClipboard"
+    },
+    {
       "command": "toggleBlockSelection",
       "id": "Terminal.ToggleBlockSelection"
     },
@@ -55,13 +59,6 @@
         "input": "\u001b[27;6;17~"
       },
       "id": "User.sendInput.ctrlShiftQ"
-    },
-    {
-      "command": {
-        "action": "copy",
-        "singleLine": false
-      },
-      "id": "User.copy.ctrlC"
     },
     {
       "command": {
@@ -196,7 +193,7 @@
     },
     {
       "id": "Terminal.ToggleFocusMode",
-      "keys": "ctrl+shift+t"
+      "keys": "ctrl+shift+o"
     },
     {
       "id": "Terminal.MoveFocusRight",
@@ -316,7 +313,7 @@
     },
     {
       "id": "Terminal.ToggleBlockSelection",
-      "keys": "ctrl+shift+v"
+      "keys": "ctrl+shift+b"
     },
     {
       "id": "unbound",
@@ -336,7 +333,7 @@
   "profiles": {
     "defaults": {
       "bellStyle": "none",
-      "closeOnExit": "always",
+      "closeOnExit": "never",
       "colorScheme": "Macro",
       "cursorShape": "filledBox",
       "font": {
@@ -453,7 +450,7 @@
   "snapToGridOnResize": false,
   "startOnUserLogin": true,
   "tabSwitcherMode": "disabled",
-  "tabWidthMode": "titleLength",
+  "tabWidthMode": "equal",
   "theme": "dark",
   "themes": [],
   "useAcrylicInTabRow": true
