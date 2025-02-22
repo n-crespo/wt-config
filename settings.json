@@ -340,7 +340,7 @@
         "size": 10
       },
       "intenseTextStyle": "bold",
-      "opacity": 0,
+      "opacity": 100,
       "padding": "0, 6, 0, 0",
       "pathTranslationStyle": "none",
       "scrollbarState": "hidden",
@@ -424,7 +424,7 @@
   },
   "schemes": [
     {
-      "background": "#181616",
+      "background": "#111111",
       "black": "#0D0C0C",
       "blue": "#8BA4B0",
       "brightBlack": "#393836",
