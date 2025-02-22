@@ -341,7 +341,7 @@
       },
       "intenseTextStyle": "bold",
       "opacity": 100,
-      "padding": "0, 6, 0, 0",
+      "padding": "2, 5, 1, 1",
       "pathTranslationStyle": "none",
       "scrollbarState": "hidden",
       "startingDirectory": "%USERPROFILE%",
