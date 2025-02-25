@@ -7,6 +7,10 @@
       "id": "Terminal.PasteFromClipboard"
     },
     {
+      "command": "openTabRenamer",
+      "id": "Terminal.RenameTab"
+    },
+    {
       "command": "switchSelectionEndpoint",
       "id": "Terminal.SwitchSelectionEndpoint"
     },
@@ -96,6 +100,13 @@
     {
       "command": {
         "action": "sendInput",
+        "input": "\u001b[1;6;10~"
+      },
+      "id": "User.sendInput.ctrlOpenBracket"
+    },
+    {
+      "command": {
+        "action": "sendInput",
         "input": "\u001b[27;6;47~"
       },
       "id": "User.sendInput.ctrlShiftForwardSlash"
@@ -171,7 +182,7 @@
   "alwaysShowNotificationIcon": false,
   "alwaysShowTabs": false,
   "compatibility.allowHeadless": true,
-  "copyFormatting": "all",
+  "copyFormatting": "none",
   "copyOnSelect": false,
   "defaultProfile": "{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}",
   "disableAnimations": false,
@@ -179,6 +190,14 @@
   "firstWindowPreference": "persistedWindowLayout",
   "focusFollowMouse": false,
   "keybindings": [
+    {
+      "id": "Terminal.RenameTab",
+      "keys": "ctrl+shift+r"
+    },
+    {
+      "id": "User.sendInput.ctrlOpenBracket",
+      "keys": "ctrl+["
+    },
     {
       "id": "Terminal.MoveFocusLeft",
       "keys": "ctrl+alt+h"
@@ -332,7 +351,7 @@
       "bellStyle": "none",
       "closeOnExit": "always",
       "colorScheme": "Macro",
-      "cursorShape": "filledBox",
+      "cursorShape": "bar",
       "font": {
         "cellHeight": "1.55",
         "colorGlyphs": true,
@@ -450,7 +469,7 @@
   "snapToGridOnResize": false,
   "startOnUserLogin": true,
   "tabSwitcherMode": "disabled",
-  "tabWidthMode": "compact",
+  "tabWidthMode": "titleLength",
   "theme": "dark",
   "themes": [],
   "useAcrylicInTabRow": true
