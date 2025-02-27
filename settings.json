@@ -66,6 +66,13 @@
     },
     {
       "command": {
+        "action": "newTab",
+        "commandline": "nvim %LOCALAPPDATA%/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json"
+      },
+      "id": "User.newWindow.WinSettings"
+    },
+    {
+      "command": {
         "action": "sendInput",
         "input": "\u001b[27;5;47~"
       },
@@ -204,6 +211,10 @@
     },
     {
       "id": "User.newWindow.WSLSettings",
+      "keys": "ctrl+alt+shift+comma"
+    },
+    {
+      "id": "User.newWindow.WinSettings",
       "keys": "ctrl+shift+comma"
     },
     {
