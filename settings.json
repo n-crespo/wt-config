@@ -3,6 +3,14 @@
   "$schema": "https://aka.ms/terminal-profiles-schema",
   "actions": [
     {
+      "command": "closePane",
+      "id": "Terminal.closePane"
+    },
+    {
+      "command": "togglePaneZoom",
+      "id": "Terminal.togglePaneZoom"
+    },
+    {
       "command": "paste",
       "id": "Terminal.PasteFromClipboard"
     },
@@ -42,7 +50,7 @@
     {
       "command": {
         "action": "sendInput",
-        "input": "\t"
+        "input": "\u0009"
       },
       "id": "User.sendInput.ctrlI"
     },
@@ -198,6 +206,18 @@
   "focusFollowMouse": false,
   "keybindings": [
     {
+      "id": "Terminal.togglePaneZoom",
+      "keys": "ctrl+alt+o"
+    },
+    {
+      "id": "Terminal.ClosePane",
+      "keys": "ctrl+alt+q"
+    },
+    {
+      "id": "Terminal.ClosePane",
+      "keys": "ctrl+alt+w"
+    },
+    {
       "id": "Terminal.RenameTab",
       "keys": "ctrl+shift+r"
     },
@@ -211,11 +231,11 @@
     },
     {
       "id": "User.newWindow.WSLSettings",
-      "keys": "ctrl+alt+shift+comma"
+      "keys": "ctrl+shift+comma"
     },
     {
       "id": "User.newWindow.WinSettings",
-      "keys": "ctrl+shift+comma"
+      "keys": "ctrl+shift+alt+comma"
     },
     {
       "id": "Terminal.MoveFocusUp",
@@ -440,8 +460,7 @@
         "name": "WSL (default)",
         "pathTranslationStyle": "wsl",
         "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
-        "suppressApplicationTitle": true,
-        "tabTitle": "wsl"
+        "suppressApplicationTitle": true
       },
       {
         "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
