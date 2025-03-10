@@ -3,6 +3,13 @@
   "$schema": "https://aka.ms/terminal-profiles-schema",
   "actions": [
     {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[1;6;10~"
+      },
+      "id": "User.sendInput.ctrlOpenBracket"
+    },
+    {
       "command": "closePane",
       "id": "Terminal.closePane"
     },
@@ -11,12 +18,12 @@
       "id": "Terminal.togglePaneZoom"
     },
     {
-      "command": "paste",
-      "id": "Terminal.PasteFromClipboard"
-    },
-    {
       "command": "openTabRenamer",
       "id": "Terminal.RenameTab"
+    },
+    {
+      "command": "paste",
+      "id": "Terminal.PasteFromClipboard"
     },
     {
       "command": "switchSelectionEndpoint",
@@ -30,15 +37,15 @@
       "id": "User.sendInput.ctrlShiftQ"
     },
     {
+      "command": "openNewTabDropdown",
+      "id": "User.openNewTabDropdown"
+    },
+    {
       "command": {
         "action": "sendInput",
         "input": "\u001b[13;2u"
       },
       "id": "User.sendInput.shiftEnter"
-    },
-    {
-      "command": "openNewTabDropdown",
-      "id": "User.openNewTabDropdown"
     },
     {
       "command": {
@@ -50,7 +57,7 @@
     {
       "command": {
         "action": "sendInput",
-        "input": "\u0009"
+        "input": "\t"
       },
       "id": "User.sendInput.ctrlI"
     },
@@ -68,9 +75,17 @@
     {
       "command": {
         "action": "newWindow",
-        "commandline": "wsl -e fish -c \"nvim /mnt/c/Users/nicol/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json\""
+        "commandline": "wsl -e fish -c \"nvim /mnt/c/Users/nicol/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json\"",
+        "profile": "{3ad42e7b-e073-5f3e-ac57-1c259ffa86a8}"
       },
       "id": "User.newWindow.WSLSettings"
+    },
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[27;5;47~"
+      },
+      "id": "User.sendInput.ctrlForwardSlash"
     },
     {
       "command": {
@@ -82,9 +97,9 @@
     {
       "command": {
         "action": "sendInput",
-        "input": "\u001b[27;5;47~"
+        "input": "\u001b[27;6;47~"
       },
-      "id": "User.sendInput.ctrlForwardSlash"
+      "id": "User.sendInput.ctrlShiftForwardSlash"
     },
     {
       "command": {
@@ -111,20 +126,6 @@
         "action": "newTab"
       },
       "id": "User.newTab.ctrlSpace"
-    },
-    {
-      "command": {
-        "action": "sendInput",
-        "input": "\u001b[1;6;10~"
-      },
-      "id": "User.sendInput.ctrlOpenBracket"
-    },
-    {
-      "command": {
-        "action": "sendInput",
-        "input": "\u001b[27;6;47~"
-      },
-      "id": "User.sendInput.ctrlShiftForwardSlash"
     },
     {
       "command": "find",
@@ -214,28 +215,40 @@
       "keys": "ctrl+alt+q"
     },
     {
-      "id": "Terminal.ClosePane",
-      "keys": "ctrl+alt+w"
-    },
-    {
       "id": "Terminal.RenameTab",
       "keys": "ctrl+shift+r"
+    },
+    {
+      "id": "unbound",
+      "keys": "alt+shift+plus"
     },
     {
       "id": "User.sendInput.ctrlOpenBracket",
       "keys": "ctrl+["
     },
     {
-      "id": "Terminal.MoveFocusLeft",
-      "keys": "ctrl+alt+h"
+      "id": "User.newWindow.A242E891",
+      "keys": "ctrl+alt+e"
+    },
+    {
+      "id": "User.sendInput.ctrlSemiColon",
+      "keys": "ctrl+;"
+    },
+    {
+      "id": "User.newWindow.WinSettings",
+      "keys": "ctrl+alt+shift+comma"
+    },
+    {
+      "id": "Terminal.ClosePane",
+      "keys": "ctrl+alt+w"
     },
     {
       "id": "User.newWindow.WSLSettings",
       "keys": "ctrl+shift+comma"
     },
     {
-      "id": "User.newWindow.WinSettings",
-      "keys": "ctrl+shift+alt+comma"
+      "id": "Terminal.MoveFocusLeft",
+      "keys": "ctrl+alt+h"
     },
     {
       "id": "Terminal.MoveFocusUp",
@@ -284,14 +297,6 @@
     {
       "id": "User.sendInput.ctrlBackspace",
       "keys": "ctrl+backspace"
-    },
-    {
-      "id": "User.sendInput.ctrlSemiColon",
-      "keys": "ctrl+;"
-    },
-    {
-      "id": "User.newWindow.A242E891",
-      "keys": "ctrl+alt+e"
     },
     {
       "id": "User.sendInput.ctrlH",
@@ -364,10 +369,6 @@
     {
       "id": "unbound",
       "keys": "alt+shift+minus"
-    },
-    {
-      "id": "unbound",
-      "keys": "alt+shift+plus"
     }
   ],
   "launchMode": "focus",
@@ -379,6 +380,8 @@
   "newTabPosition": "afterCurrentTab",
   "profiles": {
     "defaults": {
+      "adjustIndistinguishableColors": "indexed",
+      "antialiasingMode": "grayscale",
       "bellStyle": "none",
       "closeOnExit": "always",
       "colorScheme": "Macro",
@@ -467,6 +470,24 @@
         "hidden": true,
         "name": "Azure Cloud Shell",
         "source": "Windows.Terminal.Azure"
+      },
+      {
+        "guid": "{0fd92546-7b12-5231-b333-a6494d73e383}",
+        "hidden": false,
+        "name": "Developer Command Prompt for VS 2022",
+        "source": "Windows.Terminal.VisualStudio"
+      },
+      {
+        "guid": "{e0095c11-1c5a-5ab2-aae9-0306fb33080f}",
+        "hidden": false,
+        "name": "Developer PowerShell for VS 2022",
+        "source": "Windows.Terminal.VisualStudio"
+      },
+      {
+        "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
+        "hidden": true,
+        "name": "Visual Studio Debug Console",
+        "source": "VSDebugConsole"
       }
     ]
   },
