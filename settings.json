@@ -14,20 +14,12 @@
       "id": "Terminal.closePane"
     },
     {
-      "command": "togglePaneZoom",
-      "id": "Terminal.togglePaneZoom"
-    },
-    {
       "command": "openTabRenamer",
       "id": "Terminal.RenameTab"
     },
     {
-      "command": "paste",
-      "id": "Terminal.PasteFromClipboard"
-    },
-    {
-      "command": "switchSelectionEndpoint",
-      "id": "Terminal.SwitchSelectionEndpoint"
+      "command": "togglePaneZoom",
+      "id": "Terminal.togglePaneZoom"
     },
     {
       "command": {
@@ -35,6 +27,14 @@
         "input": "\u001b[27;6;17~"
       },
       "id": "User.sendInput.ctrlShiftQ"
+    },
+    {
+      "command": "switchSelectionEndpoint",
+      "id": "Terminal.SwitchSelectionEndpoint"
+    },
+    {
+      "command": "paste",
+      "id": "Terminal.PasteFromClipboard"
     },
     {
       "command": "openNewTabDropdown",
@@ -50,16 +50,16 @@
     {
       "command": {
         "action": "sendInput",
-        "input": "\u001b[27;6;1~"
+        "input": "\t"
       },
-      "id": "User.sendInput.ctrlShiftA"
+      "id": "User.sendInput.ctrlI"
     },
     {
       "command": {
         "action": "sendInput",
-        "input": "\t"
+        "input": "\u001b[27;6;1~"
       },
-      "id": "User.sendInput.ctrlI"
+      "id": "User.sendInput.ctrlShiftA"
     },
     {
       "command": {
@@ -128,15 +128,15 @@
       "id": "User.newTab.ctrlSpace"
     },
     {
-      "command": "find",
-      "id": "User.find"
-    },
-    {
       "command": {
         "action": "sendInput",
         "input": "\b"
       },
       "id": "User.sendInput.ctrlH"
+    },
+    {
+      "command": "find",
+      "id": "User.find"
     },
     {
       "command": {
@@ -147,18 +147,18 @@
     },
     {
       "command": {
-        "action": "sendInput",
-        "input": "\u001b[13;5u"
-      },
-      "id": "User.sendInput.ctrlEnter"
-    },
-    {
-      "command": {
         "action": "splitPane",
         "split": "auto",
         "splitMode": "duplicate"
       },
       "id": "User.splitPane.A6751878"
+    },
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[13;5u"
+      },
+      "id": "User.sendInput.ctrlEnter"
     },
     {
       "command": {
@@ -211,32 +211,32 @@
       "keys": "ctrl+alt+o"
     },
     {
-      "id": "Terminal.ClosePane",
-      "keys": "ctrl+alt+q"
-    },
-    {
-      "id": "Terminal.RenameTab",
-      "keys": "ctrl+shift+r"
-    },
-    {
-      "id": "unbound",
-      "keys": "alt+shift+plus"
-    },
-    {
-      "id": "User.sendInput.ctrlOpenBracket",
-      "keys": "ctrl+["
-    },
-    {
-      "id": "User.newWindow.A242E891",
-      "keys": "ctrl+alt+e"
+      "id": "User.newWindow.WinSettings",
+      "keys": "ctrl+alt+shift+comma"
     },
     {
       "id": "User.sendInput.ctrlSemiColon",
       "keys": "ctrl+;"
     },
     {
-      "id": "User.newWindow.WinSettings",
-      "keys": "ctrl+alt+shift+comma"
+      "id": "User.newWindow.A242E891",
+      "keys": "ctrl+alt+e"
+    },
+    {
+      "id": "User.sendInput.ctrlOpenBracket",
+      "keys": "ctrl+["
+    },
+    {
+      "id": "unbound",
+      "keys": "alt+shift+plus"
+    },
+    {
+      "id": "Terminal.RenameTab",
+      "keys": "ctrl+shift+r"
+    },
+    {
+      "id": "Terminal.ClosePane",
+      "keys": "ctrl+alt+q"
     },
     {
       "id": "Terminal.ClosePane",
@@ -398,7 +398,7 @@
       "pathTranslationStyle": "none",
       "scrollbarState": "hidden",
       "startingDirectory": "%USERPROFILE%",
-      "suppressApplicationTitle": true,
+      "suppressApplicationTitle": false,
       "useAcrylic": true
     },
     "list": [
@@ -429,7 +429,8 @@
         "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
         "hidden": true,
         "name": "Ubuntu",
-        "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
+        "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc",
+        "tabTitle": null
       },
       {
         "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
@@ -460,10 +461,12 @@
         "experimental.retroTerminalEffect": false,
         "guid": "{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}",
         "hidden": false,
+        "icon": "none",
         "name": "WSL (default)",
         "pathTranslationStyle": "wsl",
         "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
-        "suppressApplicationTitle": true
+        "suppressApplicationTitle": false,
+        "tabTitle": null
       },
       {
         "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -517,6 +520,7 @@
     }
   ],
   "showTabsInTitlebar": true,
+  "showTerminalTitleInTitlebar": false,
   "snapToGridOnResize": false,
   "startOnUserLogin": true,
   "tabSwitcherMode": "disabled",
