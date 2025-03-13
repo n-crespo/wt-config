@@ -1,9 +1,11 @@
 {
   "$help": "https://aka.ms/terminal-documentation",
   "$schema": "https://aka.ms/terminal-profiles-schema",
-  "actions": [
+  "actions":
+  [
     {
-      "command": {
+      "command":
+      {
         "action": "sendInput",
         "input": "\u001b[1;6;10~"
       },
@@ -14,55 +16,60 @@
       "id": "Terminal.closePane"
     },
     {
-      "command": "openTabRenamer",
-      "id": "Terminal.RenameTab"
-    },
-    {
       "command": "togglePaneZoom",
       "id": "Terminal.togglePaneZoom"
     },
     {
-      "command": {
-        "action": "sendInput",
-        "input": "\u001b[27;6;17~"
-      },
-      "id": "User.sendInput.ctrlShiftQ"
-    },
-    {
-      "command": "switchSelectionEndpoint",
-      "id": "Terminal.SwitchSelectionEndpoint"
+      "command": "openTabRenamer",
+      "id": "Terminal.RenameTab"
     },
     {
       "command": "paste",
       "id": "Terminal.PasteFromClipboard"
     },
     {
+      "command": "switchSelectionEndpoint",
+      "id": "Terminal.SwitchSelectionEndpoint"
+    },
+    {
+      "command":
+      {
+        "action": "sendInput",
+        "input": "\u001b[27;6;17~"
+      },
+      "id": "User.sendInput.ctrlShiftQ"
+    },
+    {
       "command": "openNewTabDropdown",
       "id": "User.openNewTabDropdown"
     },
     {
-      "command": {
+      "command":
+      {
         "action": "sendInput",
         "input": "\u001b[13;2u"
       },
       "id": "User.sendInput.shiftEnter"
     },
     {
-      "command": {
-        "action": "sendInput",
-        "input": "\t"
-      },
-      "id": "User.sendInput.ctrlI"
-    },
-    {
-      "command": {
+      "command":
+      {
         "action": "sendInput",
         "input": "\u001b[27;6;1~"
       },
       "id": "User.sendInput.ctrlShiftA"
     },
     {
-      "command": {
+      "command":
+      {
+        "action": "sendInput",
+        "input": "\t"
+      },
+      "id": "User.sendInput.ctrlI"
+    },
+    {
+      "command":
+      {
         "action": "sendInput",
         "input": "\u001b[27;6;19~"
       },
@@ -73,7 +80,8 @@
       "id": "Terminal.ToggleBlockSelection"
     },
     {
-      "command": {
+      "command":
+      {
         "action": "newWindow",
         "commandline": "wsl -e fish -c \"nvim /mnt/c/Users/nicol/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json\"",
         "profile": "{3ad42e7b-e073-5f3e-ac57-1c259ffa86a8}"
@@ -81,72 +89,90 @@
       "id": "User.newWindow.WSLSettings"
     },
     {
-      "command": {
+      "command":
+      {
         "action": "sendInput",
         "input": "\u001b[27;5;47~"
       },
       "id": "User.sendInput.ctrlForwardSlash"
     },
     {
-      "command": {
+      "command":
+      {
         "action": "newTab",
         "commandline": "nvim %LOCALAPPDATA%/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json"
       },
       "id": "User.newWindow.WinSettings"
     },
     {
-      "command": {
+      "command":
+      {
         "action": "sendInput",
         "input": "\u001b[27;6;47~"
       },
       "id": "User.sendInput.ctrlShiftForwardSlash"
     },
     {
-      "command": {
+      "command":
+      {
         "action": "nextTab"
       },
       "id": "User.sendInput.ctrlShiftL"
     },
     {
-      "command": {
+      "command":
+      {
         "action": "sendInput",
         "input": "\u001b[27;5;59~"
       },
       "id": "User.sendInput.ctrlSemiColon"
     },
     {
-      "command": {
+      "command":
+      {
         "action": "sendInput",
         "input": "\u001b[27;6;75~"
       },
       "id": "User.sendInput.ctrlShiftK"
     },
     {
-      "command": {
+      "command":
+      {
         "action": "newTab"
       },
       "id": "User.newTab.ctrlSpace"
-    },
-    {
-      "command": {
-        "action": "sendInput",
-        "input": "\b"
-      },
-      "id": "User.sendInput.ctrlH"
     },
     {
       "command": "find",
       "id": "User.find"
     },
     {
-      "command": {
+      "command":
+      {
+        "action": "sendInput",
+        "input": "\b"
+      },
+      "id": "User.sendInput.ctrlH"
+    },
+    {
+      "command":
+      {
         "action": "sendInput",
         "input": "\u001b[27;5;67~"
       },
       "id": "User.sendInput.CTRLSHIFTC"
     },
     {
-      "command": {
+      "command":
+      {
+        "action": "sendInput",
+        "input": "\u001b[13;5u"
+      },
+      "id": "User.sendInput.ctrlEnter"
+    },
+    {
+      "command":
+      {
         "action": "splitPane",
         "split": "auto",
         "splitMode": "duplicate"
@@ -154,41 +180,39 @@
       "id": "User.splitPane.A6751878"
     },
     {
-      "command": {
-        "action": "sendInput",
-        "input": "\u001b[13;5u"
-      },
-      "id": "User.sendInput.ctrlEnter"
-    },
-    {
-      "command": {
+      "command":
+      {
         "action": "sendInput",
         "input": "\u0017"
       },
       "id": "User.sendInput.ctrlBackspace"
     },
     {
-      "command": {
+      "command":
+      {
         "action": "sendInput",
         "input": "\u001b[27;6;90~"
       },
       "id": "User.sendInput.ctrlShiftZ"
     },
     {
-      "command": {
+      "command":
+      {
         "action": "sendInput",
         "input": "\u001b[27;6;74~"
       },
       "id": "User.sendInput.ctrlShiftJ"
     },
     {
-      "command": {
+      "command":
+      {
         "action": "prevTab"
       },
       "id": "User.sendInput.ctrlShiftH"
     },
     {
-      "command": {
+      "command":
+      {
         "action": "sendInput",
         "input": "\u001b[27;5;46~"
       },
@@ -205,38 +229,39 @@
   "experimental.detectURLs": true,
   "firstWindowPreference": "persistedWindowLayout",
   "focusFollowMouse": false,
-  "keybindings": [
+  "keybindings":
+  [
     {
       "id": "Terminal.togglePaneZoom",
       "keys": "ctrl+alt+o"
     },
     {
-      "id": "User.newWindow.WinSettings",
-      "keys": "ctrl+alt+shift+comma"
-    },
-    {
-      "id": "User.sendInput.ctrlSemiColon",
-      "keys": "ctrl+;"
-    },
-    {
-      "id": "User.newWindow.A242E891",
-      "keys": "ctrl+alt+e"
-    },
-    {
-      "id": "User.sendInput.ctrlOpenBracket",
-      "keys": "ctrl+["
-    },
-    {
-      "id": "unbound",
-      "keys": "alt+shift+plus"
+      "id": "Terminal.ClosePane",
+      "keys": "ctrl+alt+q"
     },
     {
       "id": "Terminal.RenameTab",
       "keys": "ctrl+shift+r"
     },
     {
-      "id": "Terminal.ClosePane",
-      "keys": "ctrl+alt+q"
+      "id": "unbound",
+      "keys": "alt+shift+plus"
+    },
+    {
+      "id": "User.sendInput.ctrlOpenBracket",
+      "keys": "ctrl+["
+    },
+    {
+      "id": "User.newWindow.A242E891",
+      "keys": "ctrl+alt+e"
+    },
+    {
+      "id": "User.sendInput.ctrlSemiColon",
+      "keys": "ctrl+;"
+    },
+    {
+      "id": "User.newWindow.WinSettings",
+      "keys": "ctrl+alt+shift+comma"
     },
     {
       "id": "Terminal.ClosePane",
@@ -372,21 +397,25 @@
     }
   ],
   "launchMode": "focus",
-  "newTabMenu": [
+  "newTabMenu":
+  [
     {
       "type": "remainingProfiles"
     }
   ],
   "newTabPosition": "afterCurrentTab",
-  "profiles": {
-    "defaults": {
+  "profiles":
+  {
+    "defaults":
+    {
       "adjustIndistinguishableColors": "indexed",
       "antialiasingMode": "grayscale",
       "bellStyle": "none",
       "closeOnExit": "always",
       "colorScheme": "Macro",
       "cursorShape": "bar",
-      "font": {
+      "font":
+      {
         "cellHeight": "1.55",
         "colorGlyphs": true,
         "face": "JetBrainsMono Nerd Font",
@@ -401,7 +430,8 @@
       "suppressApplicationTitle": false,
       "useAcrylic": true
     },
-    "list": [
+    "list":
+    [
       {
         "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
         "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -423,7 +453,8 @@
       {
         "colorScheme": "Macro",
         "experimental.retroTerminalEffect": false,
-        "font": {
+        "font":
+        {
           "cellHeight": "1.4"
         },
         "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
@@ -476,13 +507,13 @@
       },
       {
         "guid": "{0fd92546-7b12-5231-b333-a6494d73e383}",
-        "hidden": false,
+        "hidden": true,
         "name": "Developer Command Prompt for VS 2022",
         "source": "Windows.Terminal.VisualStudio"
       },
       {
         "guid": "{e0095c11-1c5a-5ab2-aae9-0306fb33080f}",
-        "hidden": false,
+        "hidden": true,
         "name": "Developer PowerShell for VS 2022",
         "source": "Windows.Terminal.VisualStudio"
       },
@@ -494,7 +525,8 @@
       }
     ]
   },
-  "schemes": [
+  "schemes":
+  [
     {
       "background": "#111111",
       "black": "#0D0C0C",
