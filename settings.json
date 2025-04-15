@@ -240,6 +240,14 @@
     },
     {
       "id": "Terminal.ClosePane",
+      "keys": "win+w"
+    },
+    {
+      "id": "Terminal.ClosePane",
+      "keys": "ctrl+alt+q"
+    },
+    {
+      "id": "Terminal.ClosePane",
       "keys": "ctrl+alt+w"
     },
     {
@@ -263,12 +271,20 @@
       "keys": "ctrl+alt+minus"
     },
     {
+      "id": "Terminal.SplitPaneDown",
+      "keys": "win+_"
+    },
+    {
       "id": "Terminal.ToggleFocusMode",
       "keys": "ctrl+shift+o"
     },
     {
       "id": "Terminal.MoveFocusDown",
       "keys": "ctrl+alt+j"
+    },
+    {
+      "id": "Terminal.SplitPaneRight",
+      "keys": "win+\\"
     },
     {
       "id": "Terminal.SplitPaneRight",
