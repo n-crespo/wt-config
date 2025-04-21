@@ -207,6 +207,10 @@
   "focusFollowMouse": false,
   "keybindings": [
     {
+      "id": "Terminal.OpenTabColorPicker",
+      "keys": "ctrl+alt+c"
+    },
+    {
       "id": "Terminal.togglePaneZoom",
       "keys": "ctrl+alt+o"
     },
