@@ -196,7 +196,7 @@
     }
   ],
   "alwaysShowNotificationIcon": false,
-  "alwaysShowTabs": false,
+  "alwaysShowTabs": true,
   "compatibility.allowHeadless": true,
   "copyFormatting": "none",
   "copyOnSelect": false,
@@ -206,192 +206,55 @@
   "firstWindowPreference": "persistedWindowLayout",
   "focusFollowMouse": false,
   "keybindings": [
-    {
-      "id": "Terminal.OpenTabColorPicker",
-      "keys": "ctrl+alt+c"
-    },
-    {
-      "id": "Terminal.togglePaneZoom",
-      "keys": "ctrl+alt+o"
-    },
-    {
-      "id": "User.newWindow.WinSettings",
-      "keys": "ctrl+alt+shift+comma"
-    },
-    {
-      "id": "User.sendInput.ctrlSemiColon",
-      "keys": "ctrl+;"
-    },
-    {
-      "id": "User.newWindow.A242E891",
-      "keys": "ctrl+alt+e"
-    },
-    {
-      "id": "User.sendInput.ctrlOpenBracket",
-      "keys": "ctrl+["
-    },
-    {
-      "id": "unbound",
-      "keys": "alt+shift+plus"
-    },
-    {
-      "id": "Terminal.RenameTab",
-      "keys": "ctrl+shift+r"
-    },
-    {
-      "id": "Terminal.ClosePane",
-      "keys": "ctrl+alt+q"
-    },
-    {
-      "id": "Terminal.ClosePane",
-      "keys": "win+w"
-    },
-    {
-      "id": "Terminal.ClosePane",
-      "keys": "ctrl+alt+q"
-    },
-    {
-      "id": "Terminal.ClosePane",
-      "keys": "ctrl+alt+w"
-    },
-    {
-      "id": "User.newWindow.WSLSettings",
-      "keys": "ctrl+shift+comma"
-    },
-    {
-      "id": "Terminal.MoveFocusLeft",
-      "keys": "ctrl+alt+h"
-    },
-    {
-      "id": "Terminal.MoveFocusUp",
-      "keys": "ctrl+alt+k"
-    },
-    {
-      "id": "Terminal.MoveFocusRight",
-      "keys": "ctrl+alt+l"
-    },
-    {
-      "id": "Terminal.SplitPaneDown",
-      "keys": "ctrl+alt+minus"
-    },
-    {
-      "id": "Terminal.SplitPaneDown",
-      "keys": "win+_"
-    },
-    {
-      "id": "Terminal.ToggleFocusMode",
-      "keys": "ctrl+shift+o"
-    },
-    {
-      "id": "Terminal.MoveFocusDown",
-      "keys": "ctrl+alt+j"
-    },
-    {
-      "id": "Terminal.SplitPaneRight",
-      "keys": "win+\\"
-    },
-    {
-      "id": "Terminal.SplitPaneRight",
-      "keys": "ctrl+alt+\\"
-    },
-    {
-      "id": "User.copy.ctrlC",
-      "keys": "ctrl+c"
-    },
-    {
-      "id": "User.sendInput.ctrlShiftK",
-      "keys": "ctrl+shift+k"
-    },
-    {
-      "id": "User.sendInput.ctrlForwardSlash",
-      "keys": "ctrl+/"
-    },
-    {
-      "id": "User.sendInput.ctrlShiftForwardSlash",
-      "keys": "ctrl+shift+/"
-    },
-    {
-      "id": "User.sendInput.CTRLSHIFTC",
-      "keys": "ctrl+shift+c"
-    },
-    {
-      "id": "User.sendInput.ctrlBackspace",
-      "keys": "ctrl+backspace"
-    },
-    {
-      "id": "User.sendInput.ctrlH",
-      "keys": "ctrl+h"
-    },
-    {
-      "id": "User.sendInput.ctrlEnter",
-      "keys": "ctrl+enter"
-    },
-    {
-      "id": "User.openNewTabDropdown",
-      "keys": "ctrl+alt+shift+space"
-    },
-    {
-      "id": "User.sendInput.ctrlShiftS",
-      "keys": "ctrl+shift+s"
-    },
-    {
-      "id": "User.newTab.ctrlSpace",
-      "keys": "ctrl+shift+space"
-    },
-    {
-      "id": "User.sendInput.ctrlShiftQ",
-      "keys": "ctrl+shift+q"
-    },
-    {
-      "id": "User.sendInput.ctrlShiftZ",
-      "keys": "ctrl+shift+z"
-    },
-    {
-      "id": "User.find",
-      "keys": "ctrl+shift+f"
-    },
-    {
-      "id": "User.sendInput.shiftEnter",
-      "keys": "shift+enter"
-    },
-    {
-      "id": "User.sendInput.ctrlShiftJ",
-      "keys": "ctrl+shift+j"
-    },
-    {
-      "id": "User.sendInput.ctrlShiftH",
-      "keys": "ctrl+shift+h"
-    },
-    {
-      "id": "User.sendInput.ctrlShiftL",
-      "keys": "ctrl+shift+l"
-    },
-    {
-      "id": "User.sendInput.ctrlShiftA",
-      "keys": "ctrl+shift+a"
-    },
-    {
-      "id": "User.sendInput.ctrlPeriod",
-      "keys": "ctrl+period"
-    },
-    {
-      "id": "User.sendInput.ctrlI",
-      "keys": "ctrl+i"
-    },
-    {
-      "id": "Terminal.SwitchSelectionEndpoint",
-      "keys": "o"
-    },
-    {
-      "id": "Terminal.ToggleBlockSelection",
-      "keys": "ctrl+shift+b"
-    },
-    {
-      "id": "unbound",
-      "keys": "alt+shift+minus"
-    }
+    { "keys": "ctrl+alt+c", "id": "Terminal.OpenTabColorPicker" },
+    { "keys": "ctrl+alt+o", "id": "Terminal.togglePaneZoom" },
+    { "keys": "ctrl+alt+shift+comma", "id": "User.newWindow.WinSettings" },
+    { "keys": "ctrl+;", "id": "User.sendInput.ctrlSemiColon" },
+    { "keys": "ctrl+alt+e", "id": "User.newWindow.A242E891" },
+    { "keys": "ctrl+[", "id": "User.sendInput.ctrlOpenBracket" },
+    { "keys": "alt+shift+plus", "id": "unbound" },
+    { "keys": "ctrl+shift+r", "id": "Terminal.RenameTab" },
+    { "keys": "ctrl+alt+q", "id": "Terminal.ClosePane" },
+    { "keys": "win+w", "id": "Terminal.ClosePane" },
+    { "keys": "ctrl+alt+q", "id": "Terminal.ClosePane" },
+    { "keys": "ctrl+alt+w", "id": "Terminal.ClosePane" },
+    { "keys": "ctrl+shift+comma", "id": "User.newWindow.WSLSettings" },
+    { "keys": "ctrl+alt+h", "id": "Terminal.MoveFocusLeft" },
+    { "keys": "ctrl+alt+k", "id": "Terminal.MoveFocusUp" },
+    { "keys": "ctrl+alt+l", "id": "Terminal.MoveFocusRight" },
+    { "keys": "ctrl+alt+minus", "id": "Terminal.SplitPaneDown" },
+    { "keys": "win+_", "id": "Terminal.SplitPaneDown" },
+    { "keys": "ctrl+shift+o", "id": "Terminal.ToggleFocusMode" },
+    { "keys": "ctrl+alt+j", "id": "Terminal.MoveFocusDown" },
+    { "keys": "win+\\", "id": "Terminal.SplitPaneRight" },
+    { "keys": "ctrl+alt+\\", "id": "Terminal.SplitPaneRight" },
+    { "keys": "ctrl+c", "id": "User.copy.ctrlC" },
+    { "keys": "ctrl+shift+k", "id": "User.sendInput.ctrlShiftK" },
+    { "keys": "ctrl+/", "id": "User.sendInput.ctrlForwardSlash" },
+    { "keys": "ctrl+shift+/", "id": "User.sendInput.ctrlShiftForwardSlash" },
+    { "keys": "ctrl+shift+c", "id": "User.sendInput.CTRLSHIFTC" },
+    { "keys": "ctrl+backspace", "id": "User.sendInput.ctrlBackspace" },
+    { "keys": "ctrl+h", "id": "User.sendInput.ctrlH" },
+    { "keys": "ctrl+enter", "id": "User.sendInput.ctrlEnter" },
+    { "keys": "ctrl+alt+shift+space", "id": "User.openNewTabDropdown" },
+    { "keys": "ctrl+shift+s", "id": "User.sendInput.ctrlShiftS" },
+    { "keys": "ctrl+shift+space", "id": "User.newTab.ctrlSpace" },
+    { "keys": "ctrl+shift+q", "id": "User.sendInput.ctrlShiftQ" },
+    { "keys": "ctrl+shift+z", "id": "User.sendInput.ctrlShiftZ" },
+    { "keys": "ctrl+shift+f", "id": "User.find" },
+    { "keys": "shift+enter", "id": "User.sendInput.shiftEnter" },
+    { "keys": "ctrl+shift+j", "id": "User.sendInput.ctrlShiftJ" },
+    { "keys": "ctrl+shift+h", "id": "User.sendInput.ctrlShiftH" },
+    { "keys": "ctrl+shift+l", "id": "User.sendInput.ctrlShiftL" },
+    { "keys": "ctrl+shift+a", "id": "User.sendInput.ctrlShiftA" },
+    { "keys": "ctrl+period", "id": "User.sendInput.ctrlPeriod" },
+    { "keys": "ctrl+i", "id": "User.sendInput.ctrlI" },
+    { "keys": "o", "id": "Terminal.SwitchSelectionEndpoint" },
+    { "keys": "ctrl+shift+b", "id": "Terminal.ToggleBlockSelection" },
+    { "keys": "alt+shift+minus", "id": "unbound" },
+    { "keys": "ctrl+alt+p", "id": "Terminal.MoveTabToNewWindow" }
   ],
-  "launchMode": "focus",
+  "launchMode": "default",
   "newTabMenu": [
     {
       "type": "remainingProfiles"
@@ -530,7 +393,7 @@
   },
   "schemes": [
     {
-      "background": "#111111",
+      "background": "#000000",
       "black": "#0D0C0C",
       "blue": "#8BA4B0",
       "brightBlack": "#393836",
