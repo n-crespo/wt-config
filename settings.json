@@ -196,7 +196,7 @@
     }
   ],
   "alwaysShowNotificationIcon": false,
-  "alwaysShowTabs": true,
+  "alwaysShowTabs": false,
   "compatibility.allowHeadless": true,
   "copyFormatting": "none",
   "copyOnSelect": false,
@@ -254,7 +254,7 @@
     { "keys": "alt+shift+minus", "id": "unbound" },
     { "keys": "ctrl+alt+p", "id": "Terminal.MoveTabToNewWindow" }
   ],
-  "launchMode": "default",
+  "launchMode": "focus",
   "newTabMenu": [
     {
       "type": "remainingProfiles"
