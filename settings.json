@@ -3,15 +3,15 @@
   "$schema": "https://aka.ms/terminal-profiles-schema",
   "actions": [
     {
+      "command": "closePane",
+      "id": "Terminal.closePane"
+    },
+    {
       "command": {
         "action": "sendInput",
         "input": "\u001b[1;6;10~"
       },
       "id": "User.sendInput.ctrlOpenBracket"
-    },
-    {
-      "command": "closePane",
-      "id": "Terminal.closePane"
     },
     {
       "command": "openTabRenamer",
@@ -20,6 +20,17 @@
     {
       "command": "togglePaneZoom",
       "id": "Terminal.togglePaneZoom"
+    },
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[13;2u"
+      },
+      "id": "User.sendInput.shiftEnter"
+    },
+    {
+      "command": "openNewTabDropdown",
+      "id": "User.openNewTabDropdown"
     },
     {
       "command": {
@@ -37,17 +48,6 @@
       "id": "Terminal.PasteFromClipboard"
     },
     {
-      "command": "openNewTabDropdown",
-      "id": "User.openNewTabDropdown"
-    },
-    {
-      "command": {
-        "action": "sendInput",
-        "input": "\u001b[13;2u"
-      },
-      "id": "User.sendInput.shiftEnter"
-    },
-    {
       "command": {
         "action": "sendInput",
         "input": "\t"
@@ -62,6 +62,10 @@
       "id": "User.sendInput.ctrlShiftA"
     },
     {
+      "command": "toggleBlockSelection",
+      "id": "Terminal.ToggleBlockSelection"
+    },
+    {
       "command": {
         "action": "sendInput",
         "input": "\u001b[27;6;19~"
@@ -69,8 +73,11 @@
       "id": "User.sendInput.ctrlShiftS"
     },
     {
-      "command": "toggleBlockSelection",
-      "id": "Terminal.ToggleBlockSelection"
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[27;5;47~"
+      },
+      "id": "User.sendInput.ctrlForwardSlash"
     },
     {
       "command": {
@@ -83,9 +90,9 @@
     {
       "command": {
         "action": "sendInput",
-        "input": "\u001b[27;5;47~"
+        "input": "\u001b[27;6;47~"
       },
-      "id": "User.sendInput.ctrlForwardSlash"
+      "id": "User.sendInput.ctrlShiftForwardSlash"
     },
     {
       "command": {
@@ -96,13 +103,6 @@
     },
     {
       "command": {
-        "action": "sendInput",
-        "input": "\u001b[27;6;47~"
-      },
-      "id": "User.sendInput.ctrlShiftForwardSlash"
-    },
-    {
-      "command": {
         "action": "nextTab"
       },
       "id": "User.sendInput.ctrlShiftL"
@@ -110,16 +110,16 @@
     {
       "command": {
         "action": "sendInput",
-        "input": "\u001b[27;5;59~"
+        "input": "\u001b[27;6;75~"
       },
-      "id": "User.sendInput.ctrlSemiColon"
+      "id": "User.sendInput.ctrlShiftK"
     },
     {
       "command": {
         "action": "sendInput",
-        "input": "\u001b[27;6;75~"
+        "input": "\u001b[27;5;59~"
       },
-      "id": "User.sendInput.ctrlShiftK"
+      "id": "User.sendInput.ctrlSemiColon"
     },
     {
       "command": {
@@ -206,53 +206,190 @@
   "firstWindowPreference": "persistedWindowLayout",
   "focusFollowMouse": false,
   "keybindings": [
-    { "keys": "ctrl+alt+c", "id": "Terminal.OpenTabColorPicker" },
-    { "keys": "ctrl+alt+o", "id": "Terminal.togglePaneZoom" },
-    { "keys": "ctrl+alt+shift+comma", "id": "User.newWindow.WinSettings" },
-    { "keys": "ctrl+;", "id": "User.sendInput.ctrlSemiColon" },
-    { "keys": "ctrl+alt+e", "id": "User.newWindow.A242E891" },
-    { "keys": "ctrl+[", "id": "User.sendInput.ctrlOpenBracket" },
-    { "keys": "alt+shift+plus", "id": "unbound" },
-    { "keys": "ctrl+shift+r", "id": "Terminal.RenameTab" },
-    { "keys": "ctrl+alt+q", "id": "Terminal.ClosePane" },
-    { "keys": "win+w", "id": "Terminal.ClosePane" },
-    { "keys": "ctrl+alt+q", "id": "Terminal.ClosePane" },
-    { "keys": "ctrl+alt+w", "id": "Terminal.ClosePane" },
-    { "keys": "ctrl+shift+comma", "id": "User.newWindow.WSLSettings" },
-    { "keys": "ctrl+alt+h", "id": "Terminal.MoveFocusLeft" },
-    { "keys": "ctrl+alt+k", "id": "Terminal.MoveFocusUp" },
-    { "keys": "ctrl+alt+l", "id": "Terminal.MoveFocusRight" },
-    { "keys": "ctrl+alt+minus", "id": "Terminal.SplitPaneDown" },
-    { "keys": "win+_", "id": "Terminal.SplitPaneDown" },
-    { "keys": "ctrl+shift+o", "id": "Terminal.ToggleFocusMode" },
-    { "keys": "ctrl+alt+j", "id": "Terminal.MoveFocusDown" },
-    { "keys": "win+\\", "id": "Terminal.SplitPaneRight" },
-    { "keys": "ctrl+alt+\\", "id": "Terminal.SplitPaneRight" },
-    { "keys": "ctrl+c", "id": "User.copy.ctrlC" },
-    { "keys": "ctrl+shift+k", "id": "User.sendInput.ctrlShiftK" },
-    { "keys": "ctrl+/", "id": "User.sendInput.ctrlForwardSlash" },
-    { "keys": "ctrl+shift+/", "id": "User.sendInput.ctrlShiftForwardSlash" },
-    { "keys": "ctrl+shift+c", "id": "User.sendInput.CTRLSHIFTC" },
-    { "keys": "ctrl+backspace", "id": "User.sendInput.ctrlBackspace" },
-    { "keys": "ctrl+h", "id": "User.sendInput.ctrlH" },
-    { "keys": "ctrl+enter", "id": "User.sendInput.ctrlEnter" },
-    { "keys": "ctrl+alt+shift+space", "id": "User.openNewTabDropdown" },
-    { "keys": "ctrl+shift+s", "id": "User.sendInput.ctrlShiftS" },
-    { "keys": "ctrl+shift+space", "id": "User.newTab.ctrlSpace" },
-    { "keys": "ctrl+shift+q", "id": "User.sendInput.ctrlShiftQ" },
-    { "keys": "ctrl+shift+z", "id": "User.sendInput.ctrlShiftZ" },
-    { "keys": "ctrl+shift+f", "id": "User.find" },
-    { "keys": "shift+enter", "id": "User.sendInput.shiftEnter" },
-    { "keys": "ctrl+shift+j", "id": "User.sendInput.ctrlShiftJ" },
-    { "keys": "ctrl+shift+h", "id": "User.sendInput.ctrlShiftH" },
-    { "keys": "ctrl+shift+l", "id": "User.sendInput.ctrlShiftL" },
-    { "keys": "ctrl+shift+a", "id": "User.sendInput.ctrlShiftA" },
-    { "keys": "ctrl+period", "id": "User.sendInput.ctrlPeriod" },
-    { "keys": "ctrl+i", "id": "User.sendInput.ctrlI" },
-    { "keys": "o", "id": "Terminal.SwitchSelectionEndpoint" },
-    { "keys": "ctrl+shift+b", "id": "Terminal.ToggleBlockSelection" },
-    { "keys": "alt+shift+minus", "id": "unbound" },
-    { "keys": "ctrl+alt+p", "id": "Terminal.MoveTabToNewWindow" }
+    {
+      "id": "Terminal.RenameTab",
+      "keys": "ctrl+shift+r"
+    },
+    {
+      "id": "User.sendInput.ctrlOpenBracket",
+      "keys": "ctrl+["
+    },
+    {
+      "id": "unbound",
+      "keys": "alt+shift+plus"
+    },
+    {
+      "id": "User.newWindow.WinSettings",
+      "keys": "ctrl+alt+shift+comma"
+    },
+    {
+      "id": "User.sendInput.ctrlSemiColon",
+      "keys": "ctrl+;"
+    },
+    {
+      "id": "User.newWindow.A242E891",
+      "keys": "ctrl+alt+e"
+    },
+    {
+      "id": "Terminal.ClosePane",
+      "keys": "ctrl+alt+q"
+    },
+    {
+      "id": "Terminal.OpenTabColorPicker",
+      "keys": "ctrl+alt+c"
+    },
+    {
+      "id": "Terminal.togglePaneZoom",
+      "keys": "ctrl+alt+o"
+    },
+    {
+      "id": "Terminal.ClosePane",
+      "keys": "win+w"
+    },
+    {
+      "id": "Terminal.ClosePane",
+      "keys": "ctrl+alt+w"
+    },
+    {
+      "id": "User.newWindow.WSLSettings",
+      "keys": "ctrl+shift+comma"
+    },
+    {
+      "id": "Terminal.MoveFocusLeft",
+      "keys": "ctrl+alt+h"
+    },
+    {
+      "id": "Terminal.SplitPaneDown",
+      "keys": "win+shift+minus"
+    },
+    {
+      "id": "Terminal.MoveFocusRight",
+      "keys": "ctrl+alt+l"
+    },
+    {
+      "id": "Terminal.MoveFocusUp",
+      "keys": "ctrl+alt+k"
+    },
+    {
+      "id": "Terminal.SplitPaneDown",
+      "keys": "ctrl+alt+minus"
+    },
+    {
+      "id": "Terminal.ToggleFocusMode",
+      "keys": "ctrl+shift+o"
+    },
+    {
+      "id": "Terminal.MoveFocusDown",
+      "keys": "ctrl+alt+j"
+    },
+    {
+      "id": "User.sendInput.ctrlShiftL",
+      "keys": "ctrl+shift+l"
+    },
+    {
+      "id": "Terminal.SplitPaneRight",
+      "keys": "win+\\"
+    },
+    {
+      "id": "Terminal.SplitPaneRight",
+      "keys": "ctrl+alt+\\"
+    },
+    {
+      "id": "User.sendInput.ctrlShiftK",
+      "keys": "ctrl+shift+k"
+    },
+    {
+      "id": "User.copy.ctrlC",
+      "keys": "ctrl+c"
+    },
+    {
+      "id": "User.sendInput.ctrlForwardSlash",
+      "keys": "ctrl+/"
+    },
+    {
+      "id": "User.sendInput.ctrlBackspace",
+      "keys": "ctrl+backspace"
+    },
+    {
+      "id": "User.sendInput.CTRLSHIFTC",
+      "keys": "ctrl+shift+c"
+    },
+    {
+      "id": "User.sendInput.ctrlShiftForwardSlash",
+      "keys": "ctrl+shift+/"
+    },
+    {
+      "id": "User.sendInput.ctrlEnter",
+      "keys": "ctrl+enter"
+    },
+    {
+      "id": "User.sendInput.ctrlH",
+      "keys": "ctrl+h"
+    },
+    {
+      "id": "User.sendInput.ctrlShiftS",
+      "keys": "ctrl+shift+s"
+    },
+    {
+      "id": "User.openNewTabDropdown",
+      "keys": "ctrl+alt+shift+space"
+    },
+    {
+      "id": "User.newTab.ctrlSpace",
+      "keys": "ctrl+shift+space"
+    },
+    {
+      "id": "User.sendInput.ctrlShiftQ",
+      "keys": "ctrl+shift+q"
+    },
+    {
+      "id": "User.find",
+      "keys": "ctrl+shift+f"
+    },
+    {
+      "id": "User.sendInput.ctrlShiftZ",
+      "keys": "ctrl+shift+z"
+    },
+    {
+      "id": "User.sendInput.shiftEnter",
+      "keys": "shift+enter"
+    },
+    {
+      "id": "User.sendInput.ctrlShiftJ",
+      "keys": "ctrl+shift+j"
+    },
+    {
+      "id": "User.sendInput.ctrlShiftH",
+      "keys": "ctrl+shift+h"
+    },
+    {
+      "id": "User.sendInput.ctrlShiftA",
+      "keys": "ctrl+shift+a"
+    },
+    {
+      "id": "User.sendInput.ctrlPeriod",
+      "keys": "ctrl+period"
+    },
+    {
+      "id": "User.sendInput.ctrlI",
+      "keys": "ctrl+i"
+    },
+    {
+      "id": "Terminal.SwitchSelectionEndpoint",
+      "keys": "o"
+    },
+    {
+      "id": "Terminal.ToggleBlockSelection",
+      "keys": "ctrl+shift+b"
+    },
+    {
+      "id": "unbound",
+      "keys": "alt+shift+minus"
+    },
+    {
+      "id": "Terminal.MoveTabToNewWindow",
+      "keys": "ctrl+alt+p"
+    }
   ],
   "launchMode": "focus",
   "newTabMenu": [
@@ -286,7 +423,7 @@
     },
     "list": [
       {
-        "commandline": "\"C:\\Users\\nicol\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe\" -wd ~",
+        "commandline": "pwsh.exe -wd ~",
         "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
         "hidden": false,
         "icon": "\ud83e\ude9f",
@@ -318,7 +455,6 @@
         "tabTitle": null
       },
       {
-        "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
         "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
         "hidden": true,
         "name": "Windows PowerShell"
@@ -419,10 +555,10 @@
   "showTabsInTitlebar": true,
   "showTerminalTitleInTitlebar": false,
   "snapToGridOnResize": true,
-  "startOnUserLogin": true,
   "tabSwitcherMode": "disabled",
   "tabWidthMode": "equal",
   "theme": "dark",
   "themes": [],
   "useAcrylicInTabRow": true
 }
+
