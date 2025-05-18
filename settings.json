@@ -409,7 +409,7 @@
       "font": {
         "cellHeight": "1.55",
         "colorGlyphs": true,
-        "face": "JetBrainsMono Nerd Font",
+        "face": "JetBrainsMono Nerd Font, Symbols Nerd Font Mono",
         "size": 9.6
       },
       "intenseTextStyle": "bold",
@@ -561,4 +561,3 @@
   "themes": [],
   "useAcrylicInTabRow": true
 }
-
