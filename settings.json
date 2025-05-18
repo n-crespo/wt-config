@@ -123,7 +123,8 @@
     },
     {
       "command": {
-        "action": "newTab"
+        "action": "newTab",
+        "profile": "WSL (default)"
       },
       "id": "User.newTab.ctrlSpace"
     },
@@ -200,7 +201,7 @@
   "compatibility.allowHeadless": true,
   "copyFormatting": "none",
   "copyOnSelect": false,
-  "defaultProfile": "{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}",
+  "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
   "disableAnimations": false,
   "experimental.detectURLs": true,
   "firstWindowPreference": "persistedWindowLayout",
@@ -406,6 +407,7 @@
       "closeOnExit": "graceful",
       "colorScheme": "Macro",
       "cursorShape": "filledBox",
+      "elevate": false,
       "font": {
         "cellHeight": "1.55",
         "colorGlyphs": true,
@@ -561,3 +563,4 @@
   "themes": [],
   "useAcrylicInTabRow": true
 }
+
