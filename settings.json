@@ -435,7 +435,7 @@
         "startingDirectory": "%USERPROFILE%"
       },
       {
-        "commandline": "ssh ncrespo@cs33.seas.ucla.edu",
+        "commandline": "ssh ncrespo@lnxsrv01.seas.ucla.edu",
         "experimental.retroTerminalEffect": false,
         "guid": "{b4b5daf0-a996-42d6-9d14-d3deded53108}",
         "hidden": false,
