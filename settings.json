@@ -416,13 +416,13 @@
         "weight": "semi-light"
       },
       "intenseTextStyle": "bold",
-      "opacity": 100,
+      "opacity": 0,
       "padding": "2, 7, 0, 0",
       "pathTranslationStyle": "none",
       "scrollbarState": "hidden",
       "startingDirectory": "%USERPROFILE%",
       "suppressApplicationTitle": false,
-      "useAcrylic": true
+      "useAcrylic": false
     },
     "list": [
       {
