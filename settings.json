@@ -416,7 +416,7 @@
         "weight": "semi-light"
       },
       "intenseTextStyle": "bold",
-      "opacity": 0,
+      "opacity": 100,
       "padding": "2, 7, 0, 0",
       "pathTranslationStyle": "none",
       "scrollbarState": "hidden",
