@@ -404,7 +404,7 @@
       "adjustIndistinguishableColors": "indexed",
       "antialiasingMode": "grayscale",
       "bellStyle": "none",
-      "closeOnExit": "graceful",
+      "closeOnExit": "automatic",
       "colorScheme": "Macro",
       "cursorShape": "filledBox",
       "elevate": false,
