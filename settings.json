@@ -555,7 +555,7 @@
     }
   ],
   "showTabsInTitlebar": true,
-  "showTerminalTitleInTitlebar": false,
+  "showTerminalTitleInTitlebar": true,
   "snapToGridOnResize": true,
   "tabSwitcherMode": "disabled",
   "tabWidthMode": "equal",
