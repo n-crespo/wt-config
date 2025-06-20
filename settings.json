@@ -426,11 +426,12 @@
     },
     "list": [
       {
-        "commandline": "pwsh.exe -wd ~",
+        "commandline": "pwsh.exe -nologo",
+        "elevate": false,
         "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
         "hidden": false,
         "icon": "\ud83e\ude9f",
-        "name": "PowerShell",
+        "name": "windows",
         "source": "Windows.Terminal.PowershellCore",
         "startingDirectory": "%USERPROFILE%"
       },
@@ -531,8 +532,8 @@
   },
   "schemes": [
     {
-      "background": "#111111",
-      "black": "#0D0C0C",
+      "background": "#0D0D0D",
+      "black": "#0D0D0D",
       "blue": "#8BA4B0",
       "brightBlack": "#393836",
       "brightBlue": "#7FB4CA",
