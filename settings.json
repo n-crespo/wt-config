@@ -288,6 +288,10 @@
       "keys": "ctrl+shift+l"
     },
     {
+      "id": "User.newTab.ctrlSpace",
+      "keys": "ctrl+shift+enter"
+    },
+    {
       "id": "Terminal.SplitPaneRight",
       "keys": "win+\\"
     },
