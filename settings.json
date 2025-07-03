@@ -408,7 +408,7 @@
       "bellStyle": "none",
       "closeOnExit": "automatic",
       "colorScheme": "Macro",
-      "cursorShape": "filledBox",
+      "cursorShape": "bar",
       "elevate": false,
       "experimental.rightClickContextMenu": true,
       "font": {
