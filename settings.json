@@ -420,7 +420,7 @@
       },
       "intenseTextStyle": "bold",
       "opacity": 100,
-      "padding": "2, 7",
+      "padding": "2, 7, 2, 2",
       "pathTranslationStyle": "none",
       "scrollbarState": "hidden",
       "showMarksOnScrollbar": true,
