@@ -414,7 +414,7 @@
       "font": {
         "cellHeight": "1.6",
         "colorGlyphs": true,
-        "face": "JetBrains Mono, Symbols Nerd Font, Cascadia Code",
+        "face": "JetBrainsMono Nerd Font, Symbols Nerd Font, Cascadia Code",
         "size": 9.6,
         "weight": "semi-light"
       },
