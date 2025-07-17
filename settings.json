@@ -234,10 +234,6 @@
       "keys": "alt+shift+plus"
     },
     {
-      "id": "User.sendInput.ctrlOpenBracket",
-      "keys": "ctrl+["
-    },
-    {
       "id": "Terminal.RenameTab",
       "keys": "ctrl+shift+r"
     },
@@ -539,7 +535,7 @@
       "background": "#0D0D0D",
       "black": "#0D0D0D",
       "blue": "#8BA4B0",
-      "brightBlack": "#393836",
+      "brightBlack": "#909390",
       "brightBlue": "#7FB4CA",
       "brightCyan": "#7AA89F",
       "brightGreen": "#87A987",
