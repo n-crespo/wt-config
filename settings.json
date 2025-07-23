@@ -406,23 +406,23 @@
       "colorScheme": "Macro",
       "cursorShape": "bar",
       "elevate": false,
-      "experimental.rightClickContextMenu": true,
+      "experimental.rightClickContextMenu": false,
       "font": {
-        "cellHeight": "1.6",
+        "cellHeight": "1.65",
         "colorGlyphs": true,
         "face": "JetBrainsMono Nerd Font, Symbols Nerd Font, Cascadia Code",
-        "size": 9.6,
+        "size": 9.2,
         "weight": "semi-light"
       },
       "intenseTextStyle": "bold",
       "opacity": 100,
-      "padding": "2, 7, 2, 2",
+      "padding": "1, 8",
       "pathTranslationStyle": "none",
       "scrollbarState": "hidden",
       "showMarksOnScrollbar": true,
       "startingDirectory": "%USERPROFILE%",
       "suppressApplicationTitle": false,
-      "useAcrylic": false
+      "useAcrylic": true
     },
     "list": [
       {
