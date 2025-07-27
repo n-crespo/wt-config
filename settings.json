@@ -195,7 +195,7 @@
   ],
   "alwaysShowNotificationIcon": false,
   "alwaysShowTabs": false,
-  "compatibility.allowHeadless": true,
+  "compatibility.allowHeadless": false,
   "copyFormatting": "none",
   "copyOnSelect": false,
   "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
@@ -408,21 +408,20 @@
       "elevate": false,
       "experimental.rightClickContextMenu": false,
       "font": {
-        "cellHeight": "1.65",
+        "cellHeight": "1.6",
         "colorGlyphs": true,
         "face": "JetBrainsMono Nerd Font, Symbols Nerd Font, Cascadia Code",
-        "size": 9.2,
-        "weight": "semi-light"
+        "size": 9.5,
+        "weight": "medium"
       },
       "intenseTextStyle": "bold",
-      "opacity": 100,
-      "padding": "1, 8",
+      "opacity": 75,
+      "padding": "2, 10, 2, 0",
       "pathTranslationStyle": "none",
       "scrollbarState": "hidden",
-      "showMarksOnScrollbar": true,
       "startingDirectory": "%USERPROFILE%",
       "suppressApplicationTitle": false,
-      "useAcrylic": true
+      "useAcrylic": false
     },
     "list": [
       {
@@ -451,11 +450,14 @@
         "experimental.retroTerminalEffect": false,
         "guid": "{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}",
         "hidden": false,
+        "icon": null,
         "name": "WSL (default)",
+        "opacity": 89,
         "pathTranslationStyle": "wsl",
         "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
         "suppressApplicationTitle": false,
-        "tabTitle": null
+        "tabTitle": null,
+        "useAcrylic": false
       },
       {
         "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -476,6 +478,7 @@
         },
         "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
         "hidden": true,
+        "icon": null,
         "name": "Ubuntu",
         "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc",
         "tabTitle": null
@@ -527,40 +530,46 @@
         "hidden": true,
         "name": "Visual Studio Debug Console",
         "source": "VSDebugConsole"
+      },
+      {
+        "guid": "{85943955-2ea7-417f-8ce5-d4f9490d80aa}",
+        "hidden": false,
+        "name": "Developer Command Prompt for VS 2022"
       }
     ]
   },
   "schemes": [
     {
-      "background": "#0F0F0F",
-      "brightBlack": "#626462",
-      "black": "#0D0D0D",
-      "brightRed": "#C34043",
-      "red": "#C4746E",
-      "brightYellow": "#FF9E3B",
-      "yellow": "#C8AE81",
-      "brightGreen": "#98BB6C",
-      "green": "#8A9A7B",
-      "brightBlue": "#2D4F67",
+      "background": "#0D0D0D",
+      "black": "#0F0F0F",
       "blue": "#9FB5C9",
+      "brightBlack": "#626462",
+      "brightBlue": "#2D4F67",
       "brightCyan": "#7AA89F",
-      "cyan": "#95AEAC",
+      "brightGreen": "#98BB6C",
       "brightPurple": "#5F5F87",
-      "purple": "#A292A3",
+      "brightRed": "#C34043",
       "brightWhite": "#FFFFFF",
-      "white": "#C9C9C9",
-      "name": "Macro",
-      "cursorColor": "#ffffff",
+      "brightYellow": "#FF9E3B",
+      "cursorColor": "#FFFFFF",
+      "cyan": "#95AEAC",
       "foreground": "#C5C9C5",
-      "selectionBackground": "#2e2e2e"
+      "green": "#8A9A7B",
+      "name": "Macro",
+      "purple": "#A292A3",
+      "red": "#C4746E",
+      "selectionBackground": "#2E2E2E",
+      "white": "#C9C9C9",
+      "yellow": "#C8AE81"
     }
   ],
   "showTabsInTitlebar": true,
   "showTerminalTitleInTitlebar": true,
-  "snapToGridOnResize": true,
+  "snapToGridOnResize": false,
   "tabSwitcherMode": "disabled",
   "tabWidthMode": "equal",
   "theme": "dark",
   "themes": [],
   "useAcrylicInTabRow": true
 }
+
