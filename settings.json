@@ -416,7 +416,7 @@
         "weight": "medium"
       },
       "intenseTextStyle": "bold",
-      "opacity": 75,
+      "opacity": 100,
       "padding": "2, 10, 2, 0",
       "pathTranslationStyle": "none",
       "scrollbarState": "hidden",
@@ -453,12 +453,10 @@
         "hidden": false,
         "icon": null,
         "name": "WSL (default)",
-        "opacity": 89,
         "pathTranslationStyle": "wsl",
         "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
         "suppressApplicationTitle": false,
-        "tabTitle": null,
-        "useAcrylic": false
+        "tabTitle": null
       },
       {
         "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -573,4 +571,3 @@
   "themes": [],
   "useAcrylicInTabRow": true
 }
-
