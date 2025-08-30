@@ -391,7 +391,7 @@
       "keys": "ctrl+alt+p"
     }
   ],
-  "launchMode": "focus",
+  "launchMode": "default",
   "newTabMenu": [
     {
       "type": "remainingProfiles"
@@ -400,7 +400,7 @@
   "newTabPosition": "afterCurrentTab",
   "profiles": {
     "defaults": {
-      "adjustIndistinguishableColors": "indexed",
+      "adjustIndistinguishableColors": "never",
       "antialiasingMode": "grayscale",
       "bellStyle": "none",
       "closeOnExit": "automatic",
@@ -539,27 +539,28 @@
   },
   "schemes": [
     {
-      "background": "#0D0D0D",
-      "black": "#0F0F0F",
-      "blue": "#9FB5C9",
-      "brightBlack": "#626462",
-      "brightBlue": "#2D4F67",
-      "brightCyan": "#7AA89F",
-      "brightGreen": "#98BB6C",
-      "brightPurple": "#5F5F87",
-      "brightRed": "#C34043",
-      "brightWhite": "#FFFFFF",
-      "brightYellow": "#FF9E3B",
-      "cursorColor": "#FFFFFF",
-      "cyan": "#95AEAC",
-      "foreground": "#C5C9C5",
-      "green": "#8A9A7B",
-      "name": "Macro",
-      "purple": "#A292A3",
+      "black": "#626462",
       "red": "#C4746E",
-      "selectionBackground": "#2E2E2E",
+      "green": "#8A9A7B",
+      "yellow": "#C8AE81",
+      "blue": "#88a3bc",
+      "purple": "#A292A3",
+      "cyan": "#8992A7",
       "white": "#C9C9C9",
-      "yellow": "#C8AE81"
+      "brightBlack": "#898989",
+      "brightRed": "#C34043",
+      "brightGreen": "#98BB6C",
+      "brightYellow": "#FF9E3B",
+      "brightBlue": "#2D4F67",
+      "brightPurple": "#5F5F87",
+      "brightCyan": "#949FB5",
+      "brightWhite": "#FFFFFF",
+
+      "name": "Macro",
+      "background": "#0F0F0F",
+      "cursorColor": "#FFFFFF",
+      "foreground": "#C5C9C5",
+      "selectionBackground": "#2E2E2E"
     }
   ],
   "showTabsInTitlebar": true,
