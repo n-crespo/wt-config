@@ -567,7 +567,7 @@
   "showTerminalTitleInTitlebar": true,
   "snapToGridOnResize": false,
   "tabSwitcherMode": "disabled",
-  "tabWidthMode": "equal",
+  "tabWidthMode": "titleLength",
   "theme": "dark",
   "themes": [],
   "useAcrylicInTabRow": true
