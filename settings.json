@@ -14,16 +14,16 @@
       "id": "Terminal.closePane"
     },
     {
-      "command": "openTabRenamer",
-      "id": "Terminal.RenameTab"
-    },
-    {
       "command": "togglePaneZoom",
       "id": "Terminal.togglePaneZoom"
     },
     {
-      "command": "paste",
-      "id": "Terminal.PasteFromClipboard"
+      "command": "openTabRenamer",
+      "id": "Terminal.RenameTab"
+    },
+    {
+      "command": "switchSelectionEndpoint",
+      "id": "Terminal.SwitchSelectionEndpoint"
     },
     {
       "command": {
@@ -33,8 +33,8 @@
       "id": "User.sendInput.ctrlShiftQ"
     },
     {
-      "command": "switchSelectionEndpoint",
-      "id": "Terminal.SwitchSelectionEndpoint"
+      "command": "paste",
+      "id": "Terminal.PasteFromClipboard"
     },
     {
       "command": {
@@ -50,16 +50,16 @@
     {
       "command": {
         "action": "sendInput",
-        "input": "\t"
+        "input": "\u001b[27;6;1~"
       },
-      "id": "User.sendInput.ctrlI"
+      "id": "User.sendInput.ctrlShiftA"
     },
     {
       "command": {
         "action": "sendInput",
-        "input": "\u001b[27;6;1~"
+        "input": "\t"
       },
-      "id": "User.sendInput.ctrlShiftA"
+      "id": "User.sendInput.ctrlI"
     },
     {
       "command": {
@@ -126,15 +126,15 @@
       "id": "User.duplicateTab.ctrlSpace"
     },
     {
+      "command": "find",
+      "id": "User.find"
+    },
+    {
       "command": {
         "action": "sendInput",
         "input": "\b"
       },
       "id": "User.sendInput.ctrlH"
-    },
-    {
-      "command": "find",
-      "id": "User.find"
     },
     {
       "command": {
@@ -145,18 +145,18 @@
     },
     {
       "command": {
+        "action": "sendInput",
+        "input": "\u001b[13;5u"
+      },
+      "id": "User.sendInput.ctrlEnter"
+    },
+    {
+      "command": {
         "action": "splitPane",
         "split": "auto",
         "splitMode": "duplicate"
       },
       "id": "User.splitPane.A6751878"
-    },
-    {
-      "command": {
-        "action": "sendInput",
-        "input": "\u001b[13;5u"
-      },
-      "id": "User.sendInput.ctrlEnter"
     },
     {
       "command": {
@@ -207,36 +207,36 @@
   "initialPosition": ",",
   "keybindings": [
     {
-      "id": "Terminal.OpenTabColorPicker",
-      "keys": "ctrl+alt+c"
-    },
-    {
-      "id": "Terminal.ClosePane",
-      "keys": "ctrl+alt+q"
-    },
-    {
-      "id": "User.newWindow.WinSettings",
-      "keys": "ctrl+alt+shift+comma"
-    },
-    {
-      "id": "User.sendInput.ctrlSemiColon",
-      "keys": "ctrl+;"
-    },
-    {
-      "id": "User.newWindow.A242E891",
-      "keys": "ctrl+alt+e"
-    },
-    {
-      "id": "User.newTab.ctrlSpace",
-      "keys": "ctrl+shift+enter"
+      "id": "Terminal.RenameTab",
+      "keys": "ctrl+shift+r"
     },
     {
       "id": "unbound",
       "keys": "alt+shift+plus"
     },
     {
-      "id": "Terminal.RenameTab",
-      "keys": "ctrl+shift+r"
+      "id": "User.newTab.ctrlSpace",
+      "keys": "ctrl+shift+enter"
+    },
+    {
+      "id": "User.newWindow.A242E891",
+      "keys": "ctrl+alt+e"
+    },
+    {
+      "id": "User.sendInput.ctrlSemiColon",
+      "keys": "ctrl+;"
+    },
+    {
+      "id": "User.newWindow.WinSettings",
+      "keys": "ctrl+alt+shift+comma"
+    },
+    {
+      "id": "Terminal.ClosePane",
+      "keys": "ctrl+alt+q"
+    },
+    {
+      "id": "Terminal.OpenTabColorPicker",
+      "keys": "ctrl+alt+c"
     },
     {
       "id": "Terminal.togglePaneZoom",
@@ -586,5 +586,6 @@
   "theme": "dark",
   "themes": [],
   "useAcrylicInTabRow": true,
-  "windowingBehavior": "useAnyExisting"
+  "windowingBehavior": "useNew"
 }
+
