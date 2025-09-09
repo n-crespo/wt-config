@@ -416,12 +416,12 @@
         "colorGlyphs": true,
         "face": "JetBrainsMono Nerd Font, Symbols Nerd Font, Cascadia Code",
         "features": {},
-        "size": 9.5,
-        "weight": "normal"
+        "size": 9.8,
+        "weight": "semi-light"
       },
       "intenseTextStyle": "bold",
       "opacity": 100,
-      "padding": "2, 10, 2, 0",
+      "padding": "5, 10, 5, 0",
       "pathTranslationStyle": "none",
       "scrollbarState": "hidden",
       "startingDirectory": "%USERPROFILE%",
@@ -588,4 +588,3 @@
   "useAcrylicInTabRow": true,
   "windowingBehavior": "useNew"
 }
-
