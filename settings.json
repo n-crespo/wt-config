@@ -413,15 +413,16 @@
         "axes": {},
         "builtinGlyphs": true,
         "cellHeight": "1.6",
+        "cellWidth": "0.6",
         "colorGlyphs": true,
         "face": "JetBrainsMono Nerd Font, Symbols Nerd Font, Cascadia Code",
         "features": {},
-        "size": 9.8,
+        "size": 11.5,
         "weight": "semi-light"
       },
       "intenseTextStyle": "bold",
       "opacity": 100,
-      "padding": "5, 10, 5, 0",
+      "padding": "3, 10, 3, 0",
       "pathTranslationStyle": "none",
       "scrollbarState": "hidden",
       "startingDirectory": "%USERPROFILE%",
@@ -476,9 +477,6 @@
       {
         "colorScheme": "Macro",
         "experimental.retroTerminalEffect": false,
-        "font": {
-          "cellHeight": "1.4"
-        },
         "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
         "hidden": true,
         "icon": null,
