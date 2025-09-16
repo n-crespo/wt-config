@@ -571,8 +571,22 @@
   "snapToGridOnResize": false,
   "tabSwitcherMode": "disabled",
   "tabWidthMode": "titleLength",
-  "theme": "dark",
-  "themes": [],
+  "theme": "darker",
+  "themes": [
+    {
+      "name": "darker",
+      "window": {
+        "applicationTheme": "dark"
+      },
+      "tab": {
+        "background": "terminalBackground"
+      },
+      "tabRow": {
+        "unfocusedBackground": "#000000ff",
+        "background": "#222222"
+      }
+    }
+  ],
   "useAcrylicInTabRow": true,
   "windowingBehavior": "useNew"
 }
