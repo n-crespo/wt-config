@@ -156,7 +156,7 @@
         "split": "auto",
         "splitMode": "duplicate"
       },
-      "id": "User.splitPane.A6751878"
+      "id": "User.autoSplitPane"
     },
     {
       "command": {
@@ -244,10 +244,6 @@
     },
     {
       "id": "Terminal.ClosePane",
-      "keys": "win+w"
-    },
-    {
-      "id": "Terminal.ClosePane",
       "keys": "ctrl+alt+w"
     },
     {
@@ -259,10 +255,6 @@
       "keys": "ctrl+alt+h"
     },
     {
-      "id": "Terminal.SplitPaneDown",
-      "keys": "win+shift+minus"
-    },
-    {
       "id": "Terminal.MoveFocusRight",
       "keys": "ctrl+alt+l"
     },
@@ -271,8 +263,8 @@
       "keys": "ctrl+alt+k"
     },
     {
-      "id": "Terminal.SplitPaneDown",
-      "keys": "ctrl+alt+minus"
+      "id": "User.autoSplitPane",
+      "keys": "ctrl+alt+\\"
     },
     {
       "id": "Terminal.ToggleFocusMode",
@@ -285,14 +277,6 @@
     {
       "id": "User.sendInput.ctrlShiftL",
       "keys": "ctrl+shift+l"
-    },
-    {
-      "id": "Terminal.SplitPaneRight",
-      "keys": "win+\\"
-    },
-    {
-      "id": "Terminal.SplitPaneRight",
-      "keys": "ctrl+alt+\\"
     },
     {
       "id": "User.sendInput.ctrlShiftK",
@@ -592,4 +576,3 @@
   "useAcrylicInTabRow": true,
   "windowingBehavior": "useNew"
 }
-
