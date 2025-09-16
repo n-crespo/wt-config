@@ -14,16 +14,12 @@
       "id": "User.sendInput.ctrlOpenBracket"
     },
     {
-      "command": "togglePaneZoom",
-      "id": "Terminal.togglePaneZoom"
-    },
-    {
       "command": "openTabRenamer",
       "id": "Terminal.RenameTab"
     },
     {
-      "command": "openNewTabDropdown",
-      "id": "User.openNewTabDropdown"
+      "command": "togglePaneZoom",
+      "id": "Terminal.togglePaneZoom"
     },
     {
       "command": {
@@ -33,8 +29,8 @@
       "id": "User.sendInput.shiftEnter"
     },
     {
-      "command": "switchSelectionEndpoint",
-      "id": "Terminal.SwitchSelectionEndpoint"
+      "command": "openNewTabDropdown",
+      "id": "User.openNewTabDropdown"
     },
     {
       "command": {
@@ -44,15 +40,12 @@
       "id": "User.sendInput.ctrlShiftQ"
     },
     {
-      "command": "paste",
-      "id": "Terminal.PasteFromClipboard"
+      "command": "switchSelectionEndpoint",
+      "id": "Terminal.SwitchSelectionEndpoint"
     },
     {
-      "command": {
-        "action": "sendInput",
-        "input": "\u001b[27;6;1~"
-      },
-      "id": "User.sendInput.ctrlShiftA"
+      "command": "paste",
+      "id": "Terminal.PasteFromClipboard"
     },
     {
       "command": {
@@ -60,6 +53,13 @@
         "input": "\t"
       },
       "id": "User.sendInput.ctrlI"
+    },
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[27;6;1~"
+      },
+      "id": "User.sendInput.ctrlShiftA"
     },
     {
       "command": "toggleBlockSelection",
@@ -126,15 +126,15 @@
       "id": "User.duplicateTab.ctrlSpace"
     },
     {
-      "command": "find",
-      "id": "User.find"
-    },
-    {
       "command": {
         "action": "sendInput",
         "input": "\b"
       },
       "id": "User.sendInput.ctrlH"
+    },
+    {
+      "command": "find",
+      "id": "User.find"
     },
     {
       "command": {
@@ -152,6 +152,13 @@
     },
     {
       "command": {
+        "action": "sendInput",
+        "input": "\u001b[27;6;90~"
+      },
+      "id": "User.sendInput.ctrlShiftZ"
+    },
+    {
+      "command": {
         "action": "splitPane",
         "split": "auto",
         "splitMode": "duplicate"
@@ -164,13 +171,6 @@
         "input": "\u0017"
       },
       "id": "User.sendInput.ctrlBackspace"
-    },
-    {
-      "command": {
-        "action": "sendInput",
-        "input": "\u001b[27;6;90~"
-      },
-      "id": "User.sendInput.ctrlShiftZ"
     },
     {
       "command": {
@@ -207,36 +207,36 @@
   "initialPosition": ",",
   "keybindings": [
     {
-      "id": "Terminal.ClosePane",
-      "keys": "ctrl+alt+q"
-    },
-    {
-      "id": "Terminal.OpenTabColorPicker",
-      "keys": "ctrl+alt+c"
-    },
-    {
-      "id": "User.newTab.ctrlSpace",
-      "keys": "ctrl+shift+enter"
-    },
-    {
-      "id": "User.newWindow.A242E891",
-      "keys": "ctrl+alt+e"
-    },
-    {
-      "id": "User.sendInput.ctrlSemiColon",
-      "keys": "ctrl+;"
-    },
-    {
-      "id": "User.newWindow.WinSettings",
-      "keys": "ctrl+alt+shift+comma"
+      "id": "Terminal.RenameTab",
+      "keys": "ctrl+shift+r"
     },
     {
       "id": "unbound",
       "keys": "alt+shift+plus"
     },
     {
-      "id": "Terminal.RenameTab",
-      "keys": "ctrl+shift+r"
+      "id": "User.newWindow.WinSettings",
+      "keys": "ctrl+alt+shift+comma"
+    },
+    {
+      "id": "User.sendInput.ctrlSemiColon",
+      "keys": "ctrl+;"
+    },
+    {
+      "id": "User.newWindow.A242E891",
+      "keys": "ctrl+alt+e"
+    },
+    {
+      "id": "User.newTab.ctrlSpace",
+      "keys": "ctrl+shift+enter"
+    },
+    {
+      "id": "Terminal.OpenTabColorPicker",
+      "keys": "ctrl+alt+c"
+    },
+    {
+      "id": "Terminal.ClosePane",
+      "keys": "ctrl+alt+q"
     },
     {
       "id": "Terminal.togglePaneZoom",
@@ -385,14 +385,13 @@
   "profiles": {
     "defaults": {
       "adjustIndistinguishableColors": "never",
-      "antialiasingMode": "grayscale",
+      "antialiasingMode": "cleartype",
       "bellStyle": "none",
       "closeOnExit": "automatic",
       "colorScheme": "Macro",
       "cursorShape": "filledBox",
       "elevate": false,
       "experimental.retroTerminalEffect": false,
-      "experimental.rightClickContextMenu": false,
       "font": {
         "axes": {},
         "builtinGlyphs": true,
@@ -411,7 +410,7 @@
       "scrollbarState": "hidden",
       "startingDirectory": "%USERPROFILE%",
       "suppressApplicationTitle": false,
-      "useAcrylic": false
+      "useAcrylic": true
     },
     "list": [
       {
@@ -570,20 +569,27 @@
   "showTerminalTitleInTitlebar": true,
   "snapToGridOnResize": true,
   "tabSwitcherMode": "disabled",
-  "tabWidthMode": "equal",
+  "tabWidthMode": "titleLength",
   "theme": "darker",
   "themes": [
     {
       "name": "darker",
-      "window": {
-        "applicationTheme": "dark"
-      },
       "tab": {
-        "background": "terminalBackground"
+        "background": "terminalBackground",
+        "iconStyle": "default",
+        "showCloseButton": "always",
+        "unfocusedBackground": null
       },
       "tabRow": {
-        "unfocusedBackground": "#000000ff",
-        "background": "#222222"
+        "background": "#222222FF",
+        "unfocusedBackground": "#000000FF"
+      },
+      "window": {
+        "applicationTheme": "dark",
+        "experimental.rainbowFrame": false,
+        "frame": null,
+        "unfocusedFrame": null,
+        "useMica": false
       }
     }
   ],
