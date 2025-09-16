@@ -567,10 +567,10 @@
     }
   ],
   "showTabsInTitlebar": true,
-  "showTerminalTitleInTitlebar": false,
-  "snapToGridOnResize": false,
+  "showTerminalTitleInTitlebar": true,
+  "snapToGridOnResize": true,
   "tabSwitcherMode": "disabled",
-  "tabWidthMode": "titleLength",
+  "tabWidthMode": "equal",
   "theme": "darker",
   "themes": [
     {
