@@ -581,18 +581,18 @@
         "unfocusedBackground": null
       },
       "tabRow": {
-        "background": "#222222FF",
-        "unfocusedBackground": "#000000FF"
+        "background": "#1a1a1a",
+        "unfocusedBackground": "#101010"
       },
       "window": {
         "applicationTheme": "dark",
         "experimental.rainbowFrame": false,
         "frame": null,
-        "unfocusedFrame": null,
+        "unfocusedFrame": "#222222",
         "useMica": false
       }
     }
   ],
-  "useAcrylicInTabRow": true,
+  "useAcrylicInTabRow": false,
   "windowingBehavior": "useNew"
 }
