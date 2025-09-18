@@ -427,7 +427,7 @@
         "commandline": "ssh ncrespo@lnxsrv01.seas.ucla.edu",
         "experimental.retroTerminalEffect": false,
         "guid": "{b4b5daf0-a996-42d6-9d14-d3deded53108}",
-        "hidden": false,
+        "hidden": true,
         "icon": "\u2699\ufe0f",
         "name": "cs 33",
         "pathTranslationStyle": "wsl",
@@ -534,7 +534,7 @@
       },
       {
         "guid": "{fe66f4b8-350f-56bb-adb0-c2ce745f6db5}",
-        "hidden": false,
+        "hidden": true,
         "name": "PowerShell (scoop)",
         "source": "Windows.Terminal.PowershellCore"
       }
