@@ -385,7 +385,7 @@
   "profiles": {
     "defaults": {
       "adjustIndistinguishableColors": "never",
-      "antialiasingMode": "cleartype",
+      "antialiasingMode": "grayscale",
       "bellStyle": "none",
       "closeOnExit": "automatic",
       "colorScheme": "Macro",
@@ -401,7 +401,7 @@
         "face": "JetBrainsMono Nerd Font, Symbols Nerd Font, Cascadia Code",
         "features": {},
         "size": 10.5,
-        "weight": "extra-light"
+        "weight": "semi-light"
       },
       "intenseTextStyle": "bold",
       "opacity": 100,
@@ -410,7 +410,7 @@
       "scrollbarState": "hidden",
       "startingDirectory": "%USERPROFILE%",
       "suppressApplicationTitle": false,
-      "useAcrylic": true
+      "useAcrylic": false
     },
     "list": [
       {
