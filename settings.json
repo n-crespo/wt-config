@@ -401,7 +401,7 @@
         "face": "JetBrainsMono Nerd Font, Symbols Nerd Font, Cascadia Code",
         "features": {},
         "size": 10.5,
-        "weight": "semi-light"
+        "weight": "normal"
       },
       "intenseTextStyle": "bold",
       "opacity": 100,
