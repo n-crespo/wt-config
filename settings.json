@@ -384,7 +384,7 @@
   "newTabPosition": "afterCurrentTab",
   "profiles": {
     "defaults": {
-      "adjustIndistinguishableColors": "never",
+      "adjustIndistinguishableColors": "indexed",
       "antialiasingMode": "grayscale",
       "bellStyle": "none",
       "closeOnExit": "automatic",
