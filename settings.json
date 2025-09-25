@@ -191,6 +191,13 @@
         "input": "\u001b[27;5;46~"
       },
       "id": "User.sendInput.ctrlPeriod"
+    },
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[32;5u"
+      },
+      "id": "User.sendInput.ctrlSpace"
     }
   ],
   "alwaysShowNotificationIcon": false,
@@ -231,6 +238,10 @@
     {
       "id": "User.newTab.ctrlSpace",
       "keys": "ctrl+shift+enter"
+    },
+    {
+      "id": "User.sendInput.ctrlSpace",
+      "keys": "ctrl+space"
     },
     {
       "id": "Terminal.OpenTabColorPicker",
@@ -598,4 +609,3 @@
   "useAcrylicInTabRow": false,
   "windowingBehavior": "useNew"
 }
-
