@@ -195,15 +195,17 @@
   ],
   "alwaysShowNotificationIcon": false,
   "alwaysShowTabs": false,
-  "centerOnLaunch": true,
+  "centerOnLaunch": false,
   "compatibility.allowHeadless": false,
   "copyFormatting": "none",
   "copyOnSelect": false,
   "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-  "disableAnimations": true,
+  "disableAnimations": false,
   "experimental.detectURLs": true,
   "firstWindowPreference": "defaultProfile",
   "focusFollowMouse": false,
+  "initialCols": 115,
+  "initialRows": 35,
   "initialPosition": ",",
   "keybindings": [
     {
@@ -596,3 +598,4 @@
   "useAcrylicInTabRow": false,
   "windowingBehavior": "useNew"
 }
+
