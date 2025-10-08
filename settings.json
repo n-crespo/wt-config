@@ -211,8 +211,8 @@
   "experimental.detectURLs": true,
   "firstWindowPreference": "defaultProfile",
   "focusFollowMouse": false,
-  "initialCols": 115,
-  "initialRows": 35,
+  "initialCols": 120,
+  "initialRows": 40,
   "initialPosition": ",",
   "keybindings": [
     {
