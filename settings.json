@@ -388,7 +388,7 @@
       "keys": "ctrl+alt+p"
     }
   ],
-  "launchMode": "default",
+  "launchMode": "focus",
   "newTabMenu": [
     {
       "type": "remainingProfiles"
