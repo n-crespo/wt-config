@@ -398,7 +398,7 @@
   "profiles": {
     "defaults": {
       "adjustIndistinguishableColors": "indexed",
-      "antialiasingMode": "grayscale",
+      "antialiasingMode": "cleartype",
       "bellStyle": "none",
       "closeOnExit": "automatic",
       "colorScheme": "Macro",
