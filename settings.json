@@ -388,7 +388,7 @@
       "keys": "ctrl+alt+p"
     }
   ],
-  "launchMode": "focus",
+  "launchMode": "default",
   "newTabMenu": [
     {
       "type": "remainingProfiles"
@@ -594,7 +594,7 @@
       },
       "tabRow": {
         "background": "#1a1a1a",
-        "unfocusedBackground": "#101010"
+        "unfocusedBackground": "#111111"
       },
       "window": {
         "applicationTheme": "dark",
