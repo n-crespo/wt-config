@@ -1,6 +1,30 @@
 {
   "$help": "https://aka.ms/terminal-documentation",
   "$schema": "https://aka.ms/terminal-profiles-schema",
+  "alwaysShowNotificationIcon": false,
+  "alwaysShowTabs": false,
+  "centerOnLaunch": false,
+  "compatibility.allowHeadless": false,
+  "copyFormatting": "none",
+  "copyOnSelect": false,
+  "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+  "disableAnimations": false,
+  "experimental.detectURLs": true,
+  "firstWindowPreference": "defaultProfile",
+  "focusFollowMouse": false,
+  "initialCols": 120,
+  "initialRows": 40,
+  "initialPosition": ",",
+  "launchMode": "focus",
+  "newTabPosition": "afterCurrentTab",
+  "showTabsInTitlebar": true,
+  "showTerminalTitleInTitlebar": true,
+  "snapToGridOnResize": true,
+  "tabSwitcherMode": "disabled",
+  "tabWidthMode": "titleLength",
+  "theme": "darker",
+  "useAcrylicInTabRow": false,
+  "windowingBehavior": "useNew",
   "actions": [
     {
       "command": "closePane",
@@ -200,20 +224,6 @@
       "id": "User.sendInput.ctrlSpace"
     }
   ],
-  "alwaysShowNotificationIcon": false,
-  "alwaysShowTabs": false,
-  "centerOnLaunch": false,
-  "compatibility.allowHeadless": false,
-  "copyFormatting": "none",
-  "copyOnSelect": false,
-  "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-  "disableAnimations": false,
-  "experimental.detectURLs": true,
-  "firstWindowPreference": "defaultProfile",
-  "focusFollowMouse": false,
-  "initialCols": 120,
-  "initialRows": 40,
-  "initialPosition": ",",
   "keybindings": [
     {
       "id": "Terminal.RenameTab",
@@ -388,13 +398,11 @@
       "keys": "ctrl+alt+p"
     }
   ],
-  "launchMode": "focus",
   "newTabMenu": [
     {
       "type": "remainingProfiles"
     }
   ],
-  "newTabPosition": "afterCurrentTab",
   "profiles": {
     "defaults": {
       "adjustIndistinguishableColors": "indexed",
@@ -577,12 +585,6 @@
       "yellow": "#C8AE81"
     }
   ],
-  "showTabsInTitlebar": true,
-  "showTerminalTitleInTitlebar": true,
-  "snapToGridOnResize": true,
-  "tabSwitcherMode": "disabled",
-  "tabWidthMode": "titleLength",
-  "theme": "darker",
   "themes": [
     {
       "name": "darker",
@@ -604,7 +606,5 @@
         "useMica": false
       }
     }
-  ],
-  "useAcrylicInTabRow": false,
-  "windowingBehavior": "useNew"
+  ]
 }
