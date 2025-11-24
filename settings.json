@@ -419,10 +419,10 @@
         "cellHeight": "1.6",
         "cellWidth": "0.55",
         "colorGlyphs": true,
-        "face": "Symbols Nerd Font, JetBrainsMono Nerd Font, Cascadia Code",
+        "face": "Symbols Nerd Font, JetBrainsMonoNL NF",
         "features": {},
         "size": 10.5,
-        "weight": "semi-light"
+        "weight": "normal"
       },
       "intenseTextStyle": "bold",
       "opacity": 100,
