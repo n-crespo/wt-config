@@ -589,19 +589,18 @@
     {
       "name": "darker",
       "tab": {
-        "background": "terminalBackground",
+        "background": "#1D1D1D",
         "iconStyle": "default",
-        "showCloseButton": "always",
-        "unfocusedBackground": null
+        "showCloseButton": "always"
       },
       "tabRow": {
-        "background": "#191919",
-        "unfocusedBackground": "#101010"
+        "background": "terminalBackground",
+        "unfocusedBackground": "terminalBackground"
       },
       "window": {
         "applicationTheme": "dark",
         "experimental.rainbowFrame": false,
-        "frame": null,
+        "frame": "#404040",
         "unfocusedFrame": "#000000",
         "useMica": false
       }
