@@ -152,7 +152,7 @@
     {
       "command": {
         "action": "sendInput",
-        "input": "\b"
+        "input": "\u001b[1;5P"
       },
       "id": "User.sendInput.ctrlH"
     },
