@@ -5,6 +5,7 @@
   "alwaysShowTabs": false,
   "centerOnLaunch": false,
   "compatibility.allowHeadless": false,
+  "compatibility.allowResizing": false,
   "copyFormatting": "none",
   "copyOnSelect": false,
   "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
@@ -416,7 +417,7 @@
       "font": {
         "axes": {},
         "builtinGlyphs": true,
-        "cellHeight": "1.6",
+        "cellHeight": "1.55",
         "cellWidth": "0.55",
         "colorGlyphs": true,
         "face": "Symbols Nerd Font, JetBrainsMono Nerd Font",
