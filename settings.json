@@ -563,7 +563,7 @@
   },
   "schemes": [
     {
-      "background": "#0A0A0A",
+      "background": "#0F0F0F",
       "black": "#1D1D1D",
       "blue": "#88A3BC",
       "brightBlack": "#898989",
@@ -591,7 +591,7 @@
       "name": "darker",
       "tab": {
         "background": "#1D1D1D",
-        "iconStyle": "default",
+        "unfocusedBackground": "#0F0F0F",
         "showCloseButton": "always"
       },
       "tabRow": {
