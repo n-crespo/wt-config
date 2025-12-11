@@ -440,7 +440,7 @@
         "elevate": false,
         "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
         "hidden": false,
-        "icon": "\ud83e\ude9f",
+        "icon": "https://github.com/amnweb/windows-terminal-icons/blob/main/icons/win11.png?raw=true",
         "name": "windows",
         "source": "Windows.Terminal.PowershellCore",
         "startingDirectory": "%USERPROFILE%"
