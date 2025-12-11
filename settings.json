@@ -590,7 +590,7 @@
     {
       "name": "darker",
       "tab": {
-        "background": "#1D1D1D",
+        "background": "#202124",
         "unfocusedBackground": "#0F0F0F",
         "showCloseButton": "always"
       },
