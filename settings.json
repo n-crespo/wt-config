@@ -157,7 +157,7 @@
     {
       "command": {
         "action": "sendInput",
-        "input": "\u001b[1;5P"
+        "input": "\u001b[104;5u"
       },
       "id": "User.sendInput.ctrlH"
     },
