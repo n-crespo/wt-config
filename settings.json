@@ -479,67 +479,16 @@
         "name": "Command Prompt"
       },
       {
-        "colorScheme": "Macro",
-        "experimental.retroTerminalEffect": false,
-        "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
-        "hidden": true,
-        "icon": null,
-        "name": "Ubuntu",
-        "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc",
-        "tabTitle": null
-      },
-      {
-        "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-        "hidden": true,
-        "name": "Ubuntu",
-        "source": "Windows.Terminal.Wsl"
-      },
-      {
-        "guid": "{5fb123f1-af88-5b5c-8953-d14a8def1978}",
-        "hidden": true,
-        "name": "PowerShell 7",
-        "source": "Windows.Terminal.PowershellCore"
-      },
-      {
-        "guid": "{17bf3de4-5353-5709-bcf9-835bd952a95e}",
-        "hidden": true,
-        "name": "Ubuntu-22.04",
-        "source": "Windows.Terminal.Wsl"
-      },
-      {
-        "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
-        "hidden": true,
-        "name": "Git Bash",
-        "source": "Git"
-      },
-      {
         "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
         "hidden": true,
         "name": "Azure Cloud Shell",
         "source": "Windows.Terminal.Azure"
       },
       {
-        "guid": "{0fd92546-7b12-5231-b333-a6494d73e383}",
-        "hidden": true,
-        "name": "Developer Command Prompt for VS 2022",
-        "source": "Windows.Terminal.VisualStudio"
-      },
-      {
-        "guid": "{e0095c11-1c5a-5ab2-aae9-0306fb33080f}",
-        "hidden": true,
-        "name": "Developer PowerShell for VS 2022",
-        "source": "Windows.Terminal.VisualStudio"
-      },
-      {
         "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
         "hidden": true,
         "name": "Visual Studio Debug Console",
         "source": "VSDebugConsole"
-      },
-      {
-        "guid": "{85943955-2ea7-417f-8ce5-d4f9490d80aa}",
-        "hidden": true,
-        "name": "Developer Command Prompt for VS 2022"
       },
       {
         "guid": "{d917a1c3-5162-5746-866a-5facb3f5660a}",
@@ -552,12 +501,6 @@
         "hidden": true,
         "name": "Developer PowerShell for VS 2022",
         "source": "Windows.Terminal.VisualStudio"
-      },
-      {
-        "guid": "{fe66f4b8-350f-56bb-adb0-c2ce745f6db5}",
-        "hidden": true,
-        "name": "PowerShell (scoop)",
-        "source": "Windows.Terminal.PowershellCore"
       }
     ]
   },
@@ -608,3 +551,4 @@
     }
   ]
 }
+
