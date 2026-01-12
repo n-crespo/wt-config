@@ -26,6 +26,9 @@
   "theme": "darker",
   "useAcrylicInTabRow": false,
   "windowingBehavior": "useNew",
+  "trimPaste": true,
+  "trimBlockSelection": true,
+  "warning.multiLinePaste": true,
   "actions": [
     {
       "command": "closePane",
@@ -406,14 +409,25 @@
   ],
   "profiles": {
     "defaults": {
+      "compatibility.reloadEnvironmentVariables": true,
+      "compatibility.allowOSC52": true,
+      "experimental.repositionCursorWithMouse": true,
       "adjustIndistinguishableColors": "never",
-      "antialiasingMode": "cleartype",
+      "antialiasingMode": "grayscale",
       "bellStyle": "none",
       "closeOnExit": "automatic",
       "colorScheme": "Macro",
       "cursorShape": "filledBox",
       "elevate": false,
       "experimental.retroTerminalEffect": false,
+      "intenseTextStyle": "bold",
+      "opacity": 100,
+      "padding": "4, 13, 4, 0",
+      "pathTranslationStyle": "none",
+      "scrollbarState": "hidden",
+      "startingDirectory": "%USERPROFILE%",
+      "suppressApplicationTitle": false,
+      "useAcrylic": false,
       "font": {
         "axes": {},
         "builtinGlyphs": true,
@@ -424,15 +438,7 @@
         "features": {},
         "size": 10.5,
         "weight": "normal"
-      },
-      "intenseTextStyle": "bold",
-      "opacity": 100,
-      "padding": "4, 13, 4, 0",
-      "pathTranslationStyle": "none",
-      "scrollbarState": "hidden",
-      "startingDirectory": "%USERPROFILE%",
-      "suppressApplicationTitle": false,
-      "useAcrylic": false
+      }
     },
     "list": [
       {
@@ -551,4 +557,3 @@
     }
   ]
 }
-
