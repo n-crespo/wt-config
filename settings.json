@@ -426,7 +426,7 @@
       "padding": "4, 13, 4, 0",
       "pathTranslationStyle": "none",
       "scrollbarState": "hidden",
-      "startingDirectory": "%USERPROFILE%",
+      "startingDirectory": ".",
       "suppressApplicationTitle": false,
       "useAcrylic": false,
       "font": {
@@ -450,7 +450,7 @@
         "icon": "https://github.com/amnweb/windows-terminal-icons/blob/main/icons/win11.png?raw=true",
         "name": "windows",
         "source": "Windows.Terminal.PowershellCore",
-        "startingDirectory": "%USERPROFILE%"
+        "startingDirectory": "."
       },
       {
         "commandline": "ssh ncrespo@cs35l.seas.ucla.edu",
@@ -471,6 +471,7 @@
         "name": "WSL (default)",
         "pathTranslationStyle": "wsl",
         "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
+        "startingDirectory": ".",
         "suppressApplicationTitle": false,
         "tabTitle": null
       },
