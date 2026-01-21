@@ -13,6 +13,7 @@
   "disableAnimations": false,
   "experimental.detectURLs": true,
   "firstWindowPreference": "defaultProfile",
+  "searchWebDefaultQueryUrl": "https://www.google.com/search?q=%22%s%22",
   "focusFollowMouse": false,
   "initialCols": 120,
   "initialRows": 40,
