@@ -451,7 +451,7 @@
         "icon": "C:/Users/nicol/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/win11.png",
         "name": "windows",
         "source": "Windows.Terminal.PowershellCore",
-        "startingDirectory": "."
+        "startingDirectory": "~"
       },
       {
         "commandline": "ssh ncrespo@cs35l.seas.ucla.edu",
@@ -469,7 +469,7 @@
         "guid": "{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}",
         "hidden": false,
         "icon": "\ud83d\udc27",
-        "name": "WSL (default)",
+        "name": "wsl",
         "pathTranslationStyle": "wsl",
         "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
         "startingDirectory": "~",
