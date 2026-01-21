@@ -464,7 +464,7 @@
         "tabTitle": null
       },
       {
-        "commandline": "ubuntu2204.exe",
+        "commandline": "wsl.exe",
         "experimental.retroTerminalEffect": false,
         "guid": "{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}",
         "hidden": false,
