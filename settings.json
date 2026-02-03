@@ -33,14 +33,11 @@
   "warning.multiLinePaste": true,
   "actions": [
     {
-      "command": "closePane",
-      "id": "Terminal.closePane"
-    },
-    {
       "command": {
         "action": "sendInput",
         "input": "\u001b[1;6;10~"
       },
+      "name": "Send <C-[>",
       "id": "User.sendInput.ctrlOpenBracket"
     },
     {
@@ -48,30 +45,20 @@
       "id": "Terminal.RenameTab"
     },
     {
-      "command": "togglePaneZoom",
-      "id": "Terminal.togglePaneZoom"
-    },
-    {
       "command": {
         "action": "sendInput",
         "input": "\u001b[13;2u"
       },
+      "name": "Send <S-CR>",
       "id": "User.sendInput.shiftEnter"
-    },
-    {
-      "command": "openNewTabDropdown",
-      "id": "User.openNewTabDropdown"
     },
     {
       "command": {
         "action": "sendInput",
         "input": "\u001b[27;6;17~"
       },
+      "name": "Send <C-S-Q>",
       "id": "User.sendInput.ctrlShiftQ"
-    },
-    {
-      "command": "switchSelectionEndpoint",
-      "id": "Terminal.SwitchSelectionEndpoint"
     },
     {
       "command": "paste",
@@ -82,6 +69,7 @@
         "action": "sendInput",
         "input": "\t"
       },
+      "name": "Send <C-I>",
       "id": "User.sendInput.ctrlI"
     },
     {
@@ -89,17 +77,15 @@
         "action": "sendInput",
         "input": "\u001b[27;6;1~"
       },
+      "name": "Send <C-S-A>",
       "id": "User.sendInput.ctrlShiftA"
-    },
-    {
-      "command": "toggleBlockSelection",
-      "id": "Terminal.ToggleBlockSelection"
     },
     {
       "command": {
         "action": "sendInput",
         "input": "\u001b[27;6;19~"
       },
+      "name": "Send <C-S-S>",
       "id": "User.sendInput.ctrlShiftS"
     },
     {
@@ -107,6 +93,7 @@
         "action": "sendInput",
         "input": "\u001b[27;5;47~"
       },
+      "name": "Send <C-/>",
       "id": "User.sendInput.ctrlForwardSlash"
     },
     {
@@ -115,6 +102,7 @@
         "commandline": "wsl -e fish -c \"nvim /mnt/c/Users/nicol/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json\"",
         "profile": "{3ad42e7b-e073-5f3e-ac57-1c259ffa86a8}"
       },
+      "name": "Open settings (WSL)",
       "id": "User.newWindow.WSLSettings"
     },
     {
@@ -122,26 +110,16 @@
         "action": "sendInput",
         "input": "\u001b[27;6;47~"
       },
+      "name": "Send <C-S-/>",
       "id": "User.sendInput.ctrlShiftForwardSlash"
-    },
-    {
-      "command": {
-        "action": "newTab",
-        "commandline": "nvim %LOCALAPPDATA%/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json"
-      },
-      "id": "User.newWindow.WinSettings"
-    },
-    {
-      "command": {
-        "action": "nextTab"
-      },
-      "id": "User.sendInput.ctrlShiftL"
     },
     {
       "command": {
         "action": "sendInput",
         "input": "\u001b[27;6;75~"
       },
+      "name": "Send <C-S-K>",
+
       "id": "User.sendInput.ctrlShiftK"
     },
     {
@@ -149,28 +127,23 @@
         "action": "sendInput",
         "input": "\u001b[27;5;59~"
       },
+      "name": "Send <C-;>",
       "id": "User.sendInput.ctrlSemiColon"
-    },
-    {
-      "command": "duplicateTab",
-      "id": "User.duplicateTab.ctrlSpace"
     },
     {
       "command": {
         "action": "sendInput",
         "input": "\u001b[104;5u"
       },
+      "name": "Send <C-H>",
       "id": "User.sendInput.ctrlH"
-    },
-    {
-      "command": "find",
-      "id": "User.find"
     },
     {
       "command": {
         "action": "sendInput",
         "input": "\u001b[27;5;67~"
       },
+      "name": "Send <C-S-C>",
       "id": "User.sendInput.CTRLSHIFTC"
     },
     {
@@ -178,6 +151,7 @@
         "action": "sendInput",
         "input": "\u001b[13;5u"
       },
+      "name": "Send <C-CR>",
       "id": "User.sendInput.ctrlEnter"
     },
     {
@@ -185,6 +159,7 @@
         "action": "sendInput",
         "input": "\u001b[27;6;90~"
       },
+      "name": "Send <C-S-Z>",
       "id": "User.sendInput.ctrlShiftZ"
     },
     {
@@ -193,6 +168,7 @@
         "split": "auto",
         "splitMode": "duplicate"
       },
+      "name": "Split Pane (auto)",
       "id": "User.autoSplitPane"
     },
     {
@@ -200,6 +176,7 @@
         "action": "sendInput",
         "input": "\u0017"
       },
+      "name": "Send <C-BS>",
       "id": "User.sendInput.ctrlBackspace"
     },
     {
@@ -207,19 +184,15 @@
         "action": "sendInput",
         "input": "\u001b[27;6;74~"
       },
+      "name": "Send <C-S-J>",
       "id": "User.sendInput.ctrlShiftJ"
-    },
-    {
-      "command": {
-        "action": "prevTab"
-      },
-      "id": "User.sendInput.ctrlShiftH"
     },
     {
       "command": {
         "action": "sendInput",
         "input": "\u001b[27;5;46~"
       },
+      "name": "Send <C-.>",
       "id": "User.sendInput.ctrlPeriod"
     },
     {
@@ -227,6 +200,7 @@
         "action": "sendInput",
         "input": "\u001b[32;5u"
       },
+      "name": "Send <C-Space>",
       "id": "User.sendInput.ctrlSpace"
     }
   ],
@@ -252,10 +226,6 @@
       "keys": "ctrl+alt+e"
     },
     {
-      "id": "User.newTab.ctrlSpace",
-      "keys": "ctrl+shift+enter"
-    },
-    {
       "id": "User.sendInput.ctrlSpace",
       "keys": "ctrl+space"
     },
@@ -268,7 +238,7 @@
       "keys": "ctrl+alt+q"
     },
     {
-      "id": "Terminal.togglePaneZoom",
+      "id": "Terminal.TogglePaneZoom",
       "keys": "ctrl+alt+o"
     },
     {
@@ -276,8 +246,16 @@
       "keys": "ctrl+alt+w"
     },
     {
-      "id": "User.newWindow.WSLSettings",
+      "id": "Terminal.OpenSettingsFile",
+      "keys": "ctrl+comma"
+    },
+    {
+      "id": "Terminal.MoveTabBackward",
       "keys": "ctrl+shift+comma"
+    },
+    {
+      "id": "Terminal.MoveTabForward",
+      "keys": "ctrl+shift+;"
     },
     {
       "id": "Terminal.MoveFocusLeft",
@@ -304,7 +282,7 @@
       "keys": "ctrl+alt+j"
     },
     {
-      "id": "User.sendInput.ctrlShiftL",
+      "id": "Terminal.NextTab",
       "keys": "ctrl+shift+l"
     },
     {
@@ -344,11 +322,11 @@
       "keys": "ctrl+shift+s"
     },
     {
-      "id": "User.openNewTabDropdown",
-      "keys": "ctrl+alt+shift+space"
+      "id": "Terminal.OpenNewTabDropdown",
+      "keys": "ctrl+alt+space"
     },
     {
-      "id": "User.duplicateTab.ctrlSpace",
+      "id": "Terminal.DuplicateTab",
       "keys": "ctrl+shift+space"
     },
     {
@@ -356,7 +334,7 @@
       "keys": "ctrl+shift+q"
     },
     {
-      "id": "User.find",
+      "id": "Terminal.FindText",
       "keys": "ctrl+shift+f"
     },
     {
@@ -372,7 +350,7 @@
       "keys": "ctrl+shift+j"
     },
     {
-      "id": "User.sendInput.ctrlShiftH",
+      "id": "Terminal.PrevTab",
       "keys": "ctrl+shift+h"
     },
     {
