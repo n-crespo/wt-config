@@ -5,7 +5,7 @@
   "alwaysShowTabs": false,
   "centerOnLaunch": false,
   "compatibility.allowHeadless": true,
-  "startOnUserLogin": true,
+  "startOnUserLogin": false,
   "compatibility.allowResizing": false,
   "copyFormatting": "none",
   "copyOnSelect": false,
