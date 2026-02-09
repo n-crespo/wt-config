@@ -83,7 +83,7 @@
     {
       "command": {
         "action": "sendInput",
-        "input": "\u001b[27;6;19~"
+        "input": "\u001b[115;6u"
       },
       "name": "Send <C-S-S>",
       "id": "User.sendInput.ctrlShiftS"
@@ -414,7 +414,7 @@
         "cellHeight": "1.55",
         "cellWidth": "0.55",
         "colorGlyphs": true,
-        "face": "Symbols Nerd Font, JetBrainsMono Nerd Font",
+        "face": "JetBrainsMono Nerd Font",
         "features": {},
         "size": 10.5,
         "weight": "normal"
