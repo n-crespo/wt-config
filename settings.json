@@ -35,6 +35,14 @@
     {
       "command": {
         "action": "sendInput",
+        "input": "\u001b[117;6u"
+      },
+      "name": "Send <C-S-U>",
+      "id": "User.sendInput.ctrlShiftU"
+    },
+    {
+      "command": {
+        "action": "sendInput",
         "input": "\u001b[1;6;10~"
       },
       "name": "Send <C-[>",
@@ -205,6 +213,10 @@
     }
   ],
   "keybindings": [
+    {
+      "id": "User.sendInput.ctrlShiftU",
+      "keys": "ctrl+shift+u"
+    },
     {
       "id": "Terminal.RenameTab",
       "keys": "ctrl+shift+r"
