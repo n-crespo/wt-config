@@ -427,7 +427,7 @@
         "cellWidth": "0.55",
         "colorGlyphs": true,
         "face": "JetBrainsMono Nerd Font",
-        "features": {},
+        "features": { "calt": 0 },
         "size": 10.5,
         "weight": "normal"
       }
