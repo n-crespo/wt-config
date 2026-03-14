@@ -127,7 +127,6 @@
         "input": "\u001b[27;6;75~"
       },
       "name": "Send <C-S-K>",
-
       "id": "User.sendInput.ctrlShiftK"
     },
     {
@@ -414,7 +413,7 @@
       "experimental.retroTerminalEffect": false,
       "intenseTextStyle": "bold",
       "opacity": 100,
-      "padding": "4, 13, 4, 0",
+      "padding": "4, 11, 4, 0",
       "pathTranslationStyle": "none",
       "scrollbarState": "hidden",
       "startingDirectory": ".",
@@ -427,8 +426,10 @@
         "cellWidth": "0.55",
         "colorGlyphs": true,
         "face": "JetBrainsMono Nerd Font",
-        "features": { "calt": 0 },
-        "size": 10.5,
+        "features": {
+          "calt": 0
+        },
+        "size": 10,
         "weight": "normal"
       }
     },
@@ -447,7 +448,7 @@
         "commandline": "ssh ncrespo@cs35l.seas.ucla.edu",
         "guid": "{b4b5daf0-a996-42d6-9d14-d3deded53108}",
         "hidden": false,
-        "icon": "\u2699\ufe0f",
+        "icon": "⚙️",
         "name": "SEASNet Server",
         "pathTranslationStyle": "wsl",
         "suppressApplicationTitle": false,
@@ -458,7 +459,7 @@
         "experimental.retroTerminalEffect": false,
         "guid": "{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}",
         "hidden": false,
-        "icon": "\ud83d\udc27",
+        "icon": "🐧",
         "name": "wsl",
         "pathTranslationStyle": "wsl",
         "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
