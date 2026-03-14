@@ -413,7 +413,7 @@
       "experimental.retroTerminalEffect": false,
       "intenseTextStyle": "bold",
       "opacity": 100,
-      "padding": "4, 11, 4, 0",
+      "padding": "2, 8, 2, 1",
       "pathTranslationStyle": "none",
       "scrollbarState": "hidden",
       "startingDirectory": ".",
