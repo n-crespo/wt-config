@@ -544,7 +544,7 @@
       "window": {
         "applicationTheme": "dark",
         "experimental.rainbowFrame": false,
-        "frame": "#303030",
+        "frame": "#5F5F87",
         "unfocusedFrame": "#000000",
         "useMica": false
       }
