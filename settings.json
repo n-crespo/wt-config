@@ -402,7 +402,7 @@
     "defaults": {
       "compatibility.reloadEnvironmentVariables": true,
       "compatibility.allowOSC52": true,
-      "experimental.repositionCursorWithMouse": true,
+      "experimental.repositionCursorWithMouse": false,
       "adjustIndistinguishableColors": "never",
       "antialiasingMode": "grayscale",
       "bellStyle": "none",
@@ -551,3 +551,4 @@
     }
   ]
 }
+
