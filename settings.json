@@ -148,7 +148,7 @@
     {
       "command": {
         "action": "sendInput",
-        "input": "\u001b[27;5;67~"
+        "input": "\u001b[27;6;67~"
       },
       "name": "Send <C-S-C>",
       "id": "User.sendInput.CTRLSHIFTC"
@@ -551,4 +551,3 @@
     }
   ]
 }
-
