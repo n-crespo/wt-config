@@ -257,7 +257,7 @@
       "keys": "ctrl+alt+w"
     },
     {
-      "id": "Terminal.OpenSettingsFile",
+      "id": "Terminal.OpenSettingsUI",
       "keys": "ctrl+comma"
     },
     {
