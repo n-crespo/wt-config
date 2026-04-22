@@ -1,52 +1,22 @@
 {
   "$help": "https://aka.ms/terminal-documentation",
   "$schema": "https://aka.ms/terminal-profiles-schema",
-  "alwaysShowNotificationIcon": false,
-  "alwaysShowTabs": false,
-  "centerOnLaunch": false,
-  "compatibility.allowHeadless": true,
-  "startOnUserLogin": false,
-  "compatibility.allowResizing": false,
-  "copyFormatting": "none",
-  "copyOnSelect": false,
-  "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-  "disableAnimations": false,
-  "experimental.detectURLs": true,
-  "firstWindowPreference": "defaultProfile",
-  "searchWebDefaultQueryUrl": "https://www.google.com/search?q=%22%s%22",
-  "focusFollowMouse": false,
-  "initialCols": 120,
-  "initialRows": 40,
-  "initialPosition": ",",
-  "launchMode": "focus",
-  "newTabPosition": "afterCurrentTab",
-  "showTabsInTitlebar": true,
-  "showTerminalTitleInTitlebar": true,
-  "snapToGridOnResize": true,
-  "tabSwitcherMode": "disabled",
-  "tabWidthMode": "titleLength",
-  "theme": "darker",
-  "useAcrylicInTabRow": false,
-  "windowingBehavior": "useNew",
-  "trimPaste": true,
-  "trimBlockSelection": true,
-  "warning.multiLinePaste": "automatic",
   "actions": [
     {
       "command": {
         "action": "sendInput",
         "input": "\u001b[117;6u"
       },
-      "name": "Send <C-S-U>",
-      "id": "User.sendInput.ctrlShiftU"
+      "id": "User.sendInput.ctrlShiftU",
+      "name": "Send <C-S-U>"
     },
     {
       "command": {
         "action": "sendInput",
         "input": "\u001b[1;6;10~"
       },
-      "name": "Send <C-[>",
-      "id": "User.sendInput.ctrlOpenBracket"
+      "id": "User.sendInput.ctrlOpenBracket",
+      "name": "Send <C-[>"
     },
     {
       "command": "openTabRenamer",
@@ -55,18 +25,26 @@
     {
       "command": {
         "action": "sendInput",
-        "input": "\u001b[13;2u"
+        "input": "\t"
       },
-      "name": "Send <S-CR>",
-      "id": "User.sendInput.shiftEnter"
+      "id": "User.sendInput.ctrlI",
+      "name": "Send <C-I>"
     },
     {
       "command": {
         "action": "sendInput",
-        "input": "\u001b[27;6;17~"
+        "input": "\u001b[27;6;1~"
       },
-      "name": "Send <C-S-Q>",
-      "id": "User.sendInput.ctrlShiftQ"
+      "id": "User.sendInput.ctrlShiftA",
+      "name": "Send <C-S-A>"
+    },
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[13;2u"
+      },
+      "id": "User.sendInput.shiftEnter",
+      "name": "Send <S-CR>"
     },
     {
       "command": "paste",
@@ -75,34 +53,26 @@
     {
       "command": {
         "action": "sendInput",
-        "input": "\t"
+        "input": "\u001b[27;6;17~"
       },
-      "name": "Send <C-I>",
-      "id": "User.sendInput.ctrlI"
-    },
-    {
-      "command": {
-        "action": "sendInput",
-        "input": "\u001b[27;6;1~"
-      },
-      "name": "Send <C-S-A>",
-      "id": "User.sendInput.ctrlShiftA"
+      "id": "User.sendInput.ctrlShiftQ",
+      "name": "Send <C-S-Q>"
     },
     {
       "command": {
         "action": "sendInput",
         "input": "\u001b[115;6u"
       },
-      "name": "Send <C-S-S>",
-      "id": "User.sendInput.ctrlShiftS"
+      "id": "User.sendInput.ctrlShiftS",
+      "name": "Send <C-S-S>"
     },
     {
       "command": {
         "action": "sendInput",
         "input": "\u001b[27;5;47~"
       },
-      "name": "Send <C-/>",
-      "id": "User.sendInput.ctrlForwardSlash"
+      "id": "User.sendInput.ctrlForwardSlash",
+      "name": "Send <C-/>"
     },
     {
       "command": {
@@ -110,64 +80,56 @@
         "commandline": "wsl -e fish -c \"nvim /mnt/c/Users/nicol/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json\"",
         "profile": "{3ad42e7b-e073-5f3e-ac57-1c259ffa86a8}"
       },
-      "name": "Open settings (WSL)",
-      "id": "User.newWindow.WSLSettings"
+      "id": "User.newWindow.WSLSettings",
+      "name": "Open settings (WSL)"
     },
     {
       "command": {
         "action": "sendInput",
         "input": "\u001b[27;6;47~"
       },
-      "name": "Send <C-S-/>",
-      "id": "User.sendInput.ctrlShiftForwardSlash"
+      "id": "User.sendInput.ctrlShiftForwardSlash",
+      "name": "Send <C-S-/>"
     },
     {
       "command": {
         "action": "sendInput",
         "input": "\u001b[27;6;75~"
       },
-      "name": "Send <C-S-K>",
-      "id": "User.sendInput.ctrlShiftK"
+      "id": "User.sendInput.ctrlShiftK",
+      "name": "Send <C-S-K>"
     },
     {
       "command": {
         "action": "sendInput",
         "input": "\u001b[27;5;59~"
       },
-      "name": "Send <C-;>",
-      "id": "User.sendInput.ctrlSemiColon"
+      "id": "User.sendInput.ctrlSemiColon",
+      "name": "Send <C-;>"
     },
     {
       "command": {
         "action": "sendInput",
         "input": "\u001b[104;5u"
       },
-      "name": "Send <C-H>",
-      "id": "User.sendInput.ctrlH"
+      "id": "User.sendInput.ctrlH",
+      "name": "Send <C-H>"
     },
     {
       "command": {
         "action": "sendInput",
         "input": "\u001b[27;6;67~"
       },
-      "name": "Send <C-S-C>",
-      "id": "User.sendInput.CTRLSHIFTC"
+      "id": "User.sendInput.CTRLSHIFTC",
+      "name": "Send <C-S-C>"
     },
     {
       "command": {
         "action": "sendInput",
         "input": "\u001b[13;5u"
       },
-      "name": "Send <C-CR>",
-      "id": "User.sendInput.ctrlEnter"
-    },
-    {
-      "command": {
-        "action": "sendInput",
-        "input": "\u001b[27;6;90~"
-      },
-      "name": "Send <C-S-Z>",
-      "id": "User.sendInput.ctrlShiftZ"
+      "id": "User.sendInput.ctrlEnter",
+      "name": "Send <C-CR>"
     },
     {
       "command": {
@@ -175,78 +137,100 @@
         "split": "auto",
         "splitMode": "duplicate"
       },
-      "name": "Split Pane (auto)",
-      "id": "User.autoSplitPane"
+      "id": "User.autoSplitPane",
+      "name": "Split Pane (auto)"
+    },
+    {
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[27;6;90~"
+      },
+      "id": "User.sendInput.ctrlShiftZ",
+      "name": "Send <C-S-Z>"
     },
     {
       "command": {
         "action": "sendInput",
         "input": "\u0017"
       },
-      "name": "Send <C-BS>",
-      "id": "User.sendInput.ctrlBackspace"
+      "id": "User.sendInput.ctrlBackspace",
+      "name": "Send <C-BS>"
     },
     {
       "command": {
         "action": "sendInput",
         "input": "\u001b[27;6;74~"
       },
-      "name": "Send <C-S-J>",
-      "id": "User.sendInput.ctrlShiftJ"
+      "id": "User.sendInput.ctrlShiftJ",
+      "name": "Send <C-S-J>"
     },
     {
       "command": {
         "action": "sendInput",
         "input": "\u001b[27;5;46~"
       },
-      "name": "Send <C-.>",
-      "id": "User.sendInput.ctrlPeriod"
+      "id": "User.sendInput.ctrlPeriod",
+      "name": "Send <C-.>"
     },
     {
       "command": {
         "action": "sendInput",
         "input": "\u001b[32;5u"
       },
-      "name": "Send <C-Space>",
-      "id": "User.sendInput.ctrlSpace"
+      "id": "User.sendInput.ctrlSpace",
+      "name": "Send <C-Space>"
     }
   ],
+  "alwaysShowNotificationIcon": false,
+  "alwaysShowTabs": false,
+  "centerOnLaunch": false,
+  "compatibility.allowHeadless": true,
+  "copyFormatting": "none",
+  "copyOnSelect": false,
+  "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+  "disableAnimations": false,
+  "experimental.detectURLs": true,
+  "firstWindowPreference": "defaultProfile",
+  "focusFollowMouse": false,
+  "initialCols": 120,
+  "initialPosition": ",",
+  "initialRows": 40,
   "keybindings": [
+    {
+      "id": "Terminal.OpenTabColorPicker",
+      "keys": "ctrl+alt+c"
+    },
     {
       "id": "User.sendInput.ctrlShiftU",
       "keys": "ctrl+shift+u"
     },
     {
-      "id": "Terminal.RenameTab",
-      "keys": "ctrl+shift+r"
-    },
-    {
-      "id": "unbound",
-      "keys": "alt+shift+plus"
-    },
-    {
-      "id": "User.newWindow.WinSettings",
-      "keys": "ctrl+alt+shift+comma"
-    },
-    {
-      "id": "User.sendInput.ctrlSemiColon",
-      "keys": "ctrl+;"
+      "id": "Terminal.ClosePane",
+      "keys": "ctrl+alt+q"
     },
     {
       "id": "User.newWindow.A242E891",
       "keys": "ctrl+alt+e"
     },
     {
+      "id": "User.sendInput.ctrlSemiColon",
+      "keys": "ctrl+;"
+    },
+    {
+      "id": "User.newWindow.WinSettings",
+      "keys": "ctrl+alt+shift+comma"
+    },
+    {
+      "id": "unbound",
+      "keys": "alt+shift+plus"
+    },
+    {
+      "id": "Terminal.RenameTab",
+      "keys": "ctrl+shift+r"
+    },
+    {
       "id": "User.sendInput.ctrlSpace",
       "keys": "ctrl+space"
-    },
-    {
-      "id": "Terminal.OpenTabColorPicker",
-      "keys": "ctrl+alt+c"
-    },
-    {
-      "id": "Terminal.ClosePane",
-      "keys": "ctrl+alt+q"
     },
     {
       "id": "Terminal.TogglePaneZoom",
@@ -261,12 +245,24 @@
       "keys": "ctrl+comma"
     },
     {
+      "id": "Terminal.FindText",
+      "keys": "ctrl+shift+f"
+    },
+    {
+      "id": "User.sendInput.ctrlShiftZ",
+      "keys": "ctrl+shift+z"
+    },
+    {
       "id": "Terminal.MoveTabBackward",
       "keys": "ctrl+shift+comma"
     },
     {
       "id": "Terminal.MoveTabForward",
       "keys": "ctrl+shift+;"
+    },
+    {
+      "id": "Terminal.NextTab",
+      "keys": "ctrl+shift+l"
     },
     {
       "id": "Terminal.MoveFocusLeft",
@@ -291,10 +287,6 @@
     {
       "id": "Terminal.MoveFocusDown",
       "keys": "ctrl+alt+j"
-    },
-    {
-      "id": "Terminal.NextTab",
-      "keys": "ctrl+shift+l"
     },
     {
       "id": "User.sendInput.ctrlShiftK",
@@ -345,14 +337,6 @@
       "keys": "ctrl+shift+q"
     },
     {
-      "id": "Terminal.FindText",
-      "keys": "ctrl+shift+f"
-    },
-    {
-      "id": "User.sendInput.ctrlShiftZ",
-      "keys": "ctrl+shift+z"
-    },
-    {
       "id": "User.sendInput.shiftEnter",
       "keys": "shift+enter"
     },
@@ -393,32 +377,26 @@
       "keys": "ctrl+alt+p"
     }
   ],
+  "launchMode": "focus",
   "newTabMenu": [
     {
       "type": "remainingProfiles"
     }
   ],
+  "newTabPosition": "afterCurrentTab",
   "profiles": {
     "defaults": {
-      "compatibility.reloadEnvironmentVariables": true,
-      "compatibility.allowOSC52": true,
-      "experimental.repositionCursorWithMouse": false,
       "adjustIndistinguishableColors": "never",
       "antialiasingMode": "grayscale",
       "bellStyle": "none",
       "closeOnExit": "automatic",
       "colorScheme": "Macro",
+      "compatibility.allowOSC52": true,
+      "compatibility.reloadEnvironmentVariables": true,
       "cursorShape": "filledBox",
       "elevate": false,
+      "experimental.repositionCursorWithMouse": false,
       "experimental.retroTerminalEffect": false,
-      "intenseTextStyle": "bold",
-      "opacity": 100,
-      "padding": "2, 8, 2, 1",
-      "pathTranslationStyle": "none",
-      "scrollbarState": "hidden",
-      "startingDirectory": ".",
-      "suppressApplicationTitle": false,
-      "useAcrylic": false,
       "font": {
         "axes": {},
         "builtinGlyphs": true,
@@ -431,7 +409,15 @@
         },
         "size": 9,
         "weight": "normal"
-      }
+      },
+      "intenseTextStyle": "bold",
+      "opacity": 100,
+      "padding": "2, 8, 2, 1",
+      "pathTranslationStyle": "none",
+      "scrollbarState": "hidden",
+      "startingDirectory": ".",
+      "suppressApplicationTitle": false,
+      "useAcrylic": false
     },
     "list": [
       {
@@ -539,6 +525,13 @@
       "yellow": "#C8AE81"
     }
   ],
+  "searchWebDefaultQueryUrl": "https://www.google.com/search?q=%22%s%22",
+  "showTabsInTitlebar": true,
+  "showTerminalTitleInTitlebar": true,
+  "snapToGridOnResize": true,
+  "tabSwitcherMode": "disabled",
+  "tabWidthMode": "titleLength",
+  "theme": "darker",
   "themes": [
     {
       "name": "darker",
@@ -560,6 +553,11 @@
         "useMica": false
       }
     }
-  ]
+  ],
+  "trimBlockSelection": true,
+  "trimPaste": true,
+  "useAcrylicInTabRow": false,
+  "warning.multiLinePaste": "automatic",
+  "windowingBehavior": "useNew"
 }
 
