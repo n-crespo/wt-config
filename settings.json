@@ -30,7 +30,7 @@
   "windowingBehavior": "useNew",
   "trimPaste": true,
   "trimBlockSelection": true,
-  "warning.multiLinePaste": true,
+  "warning.multiLinePaste": "automatic",
   "actions": [
     {
       "command": {
@@ -445,9 +445,19 @@
         "startingDirectory": "~"
       },
       {
+        "commandline": "ssh vm",
+        "guid": "{cfc755e2-17d0-49fe-8b62-baa8745220e9}",
+        "hidden": false,
+        "icon": "⚙️",
+        "name": "CS 111 VM",
+        "pathTranslationStyle": "wsl",
+        "suppressApplicationTitle": false,
+        "tabTitle": null
+      },
+      {
         "commandline": "ssh ncrespo@cs35l.seas.ucla.edu",
         "guid": "{b4b5daf0-a996-42d6-9d14-d3deded53108}",
-        "hidden": false,
+        "hidden": true,
         "icon": "⚙️",
         "name": "SEASNet Server",
         "pathTranslationStyle": "wsl",
@@ -533,9 +543,10 @@
     {
       "name": "darker",
       "tab": {
-        "background": "#202124",
-        "unfocusedBackground": "#0F0F0F",
-        "showCloseButton": "always"
+        "background": "#202124FF",
+        "iconStyle": "default",
+        "showCloseButton": "never",
+        "unfocusedBackground": "#0F0F0FFF"
       },
       "tabRow": {
         "background": "terminalBackground",
@@ -544,10 +555,11 @@
       "window": {
         "applicationTheme": "dark",
         "experimental.rainbowFrame": false,
-        "frame": "#5F5F87",
-        "unfocusedFrame": "#000000",
+        "frame": "#5F5F87FF",
+        "unfocusedFrame": "#000000FF",
         "useMica": false
       }
     }
   ]
 }
+
