@@ -557,7 +557,6 @@
   "trimBlockSelection": true,
   "trimPaste": true,
   "useAcrylicInTabRow": false,
-  "warning.multiLinePaste": "automatic",
+  "warning.multiLinePaste": true,
   "windowingBehavior": "useNew"
 }
-
