@@ -451,17 +451,12 @@
         "tabTitle": null
       },
       {
-        "commandline": "wsl.exe",
-        "experimental.retroTerminalEffect": false,
-        "guid": "{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}",
+        "guid": "{b9573e29-e129-5e9b-859a-3745b6edbaaa}",
         "hidden": false,
         "icon": "🐧",
         "name": "wsl",
         "pathTranslationStyle": "wsl",
-        "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
-        "startingDirectory": "~",
-        "suppressApplicationTitle": false,
-        "tabTitle": null
+        "source": "Microsoft.WSL"
       },
       {
         "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
