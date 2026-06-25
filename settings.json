@@ -194,7 +194,7 @@
   "focusFollowMouse": false,
   "initialCols": 120,
   "initialPosition": ",",
-  "initialRows": 40,
+  "initialRows": 30,
   "keybindings": [
     {
       "id": "Terminal.OpenTabColorPicker",
@@ -377,7 +377,7 @@
       "keys": "ctrl+alt+p"
     }
   ],
-  "launchMode": "focus",
+  "launchMode": "default",
   "newTabMenu": [
     {
       "type": "remainingProfiles"
@@ -538,7 +538,7 @@
       "tab": {
         "background": "#202124FF",
         "iconStyle": "default",
-        "showCloseButton": "never",
+        "showCloseButton": "always",
         "unfocusedBackground": "#0F0F0FFF"
       },
       "tabRow": {
@@ -548,7 +548,7 @@
       "window": {
         "applicationTheme": "dark",
         "experimental.rainbowFrame": false,
-        "frame": "#5F5F87FF",
+        "frame": "#73739FFF",
         "unfocusedFrame": "#000000FF",
         "useMica": false
       }
@@ -557,6 +557,6 @@
   "trimBlockSelection": true,
   "trimPaste": true,
   "useAcrylicInTabRow": false,
-  "warning.multiLinePaste": true,
+  "warning.multiLinePaste": "automatic",
   "windowingBehavior": "useNew"
 }
