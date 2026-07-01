@@ -548,8 +548,8 @@
       "window": {
         "applicationTheme": "dark",
         "experimental.rainbowFrame": false,
-        "frame": "#5F5F87FF",
-        "unfocusedFrame": "#000000FF",
+        "frame": "#73739FFF",
+        "unfocusedFrame": "#2B2B2BFF",
         "useMica": false
       }
     }
