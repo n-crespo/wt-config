@@ -431,6 +431,13 @@
         "startingDirectory": "~"
       },
       {
+        "commandline": "plink -serial COM6 -sercfg 115200,8,n,1,N",
+        "elevate": false,
+        "hidden": false,
+        "name": "COM6 Serial Port",
+        "startingDirectory": "~"
+      },
+      {
         "commandline": "ssh vm",
         "guid": "{cfc755e2-17d0-49fe-8b62-baa8745220e9}",
         "hidden": true,
