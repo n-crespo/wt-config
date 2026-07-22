@@ -401,14 +401,14 @@
         "axes": {},
         "builtinGlyphs": true,
         "cellHeight": "1.7",
-        "cellWidth": "0.54",
+        "cellWidth": "0.53",
         "colorGlyphs": true,
         "face": "JetBrainsMono Nerd Font",
         "features": {
           "calt": 0
         },
-        "size": 9,
-        "weight": "normal"
+        "size": 8.4,
+        "weight": "medium"
       },
       "intenseTextStyle": "bold",
       "opacity": 100,
