@@ -426,7 +426,7 @@
         "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
         "hidden": false,
         "icon": "win11.png",
-        "name": "windows",
+        "name": "Windows Powershell",
         "source": "Windows.Terminal.PowershellCore",
         "startingDirectory": "~"
       },
@@ -462,8 +462,8 @@
       {
         "guid": "{b9573e29-e129-5e9b-859a-3745b6edbaaa}",
         "hidden": false,
-        "icon": "🐧",
-        "name": "wsl",
+        "icon": null,
+        "name": "Ubuntu WSL",
         "pathTranslationStyle": "wsl",
         "source": "Microsoft.WSL"
       },
