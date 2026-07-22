@@ -433,7 +433,7 @@
       {
         "commandline": "ssh vm",
         "guid": "{cfc755e2-17d0-49fe-8b62-baa8745220e9}",
-        "hidden": false,
+        "hidden": true,
         "icon": "⚙️",
         "name": "CS 111 VM",
         "pathTranslationStyle": "wsl",
