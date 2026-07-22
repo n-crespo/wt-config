@@ -432,8 +432,10 @@
       },
       {
         "commandline": "plink -serial COM6 -sercfg 115200,8,n,1,N",
+        "guid": "{f5e41e96-f757-4ed8-b13d-cd5c8df9d589}",
         "elevate": false,
         "hidden": false,
+        "icon": null,
         "name": "COM6 Serial Port",
         "startingDirectory": "~"
       },
