@@ -425,7 +425,7 @@
         "elevate": false,
         "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
         "hidden": false,
-        "icon": "C:/Users/nicol/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/win11.png",
+        "icon": "win11.png",
         "name": "windows",
         "source": "Windows.Terminal.PowershellCore",
         "startingDirectory": "~"
