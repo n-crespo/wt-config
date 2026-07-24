@@ -436,6 +436,7 @@
         "elevate": false,
         "hidden": false,
         "icon": null,
+        "tabColor": "#10358F",
         "name": "COM6 Serial Port",
         "startingDirectory": "~"
       },
@@ -464,6 +465,7 @@
         "hidden": false,
         "icon": null,
         "name": "Ubuntu WSL",
+        "tabColor": "#802B08",
         "pathTranslationStyle": "wsl",
         "source": "Microsoft.WSL"
       },
