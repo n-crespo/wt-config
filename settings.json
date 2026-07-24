@@ -441,26 +441,6 @@
         "startingDirectory": "~"
       },
       {
-        "commandline": "ssh vm",
-        "guid": "{cfc755e2-17d0-49fe-8b62-baa8745220e9}",
-        "hidden": true,
-        "icon": "⚙️",
-        "name": "CS 111 VM",
-        "pathTranslationStyle": "wsl",
-        "suppressApplicationTitle": false,
-        "tabTitle": null
-      },
-      {
-        "commandline": "ssh ncrespo@cs35l.seas.ucla.edu",
-        "guid": "{b4b5daf0-a996-42d6-9d14-d3deded53108}",
-        "hidden": true,
-        "icon": "⚙️",
-        "name": "SEASNet Server",
-        "pathTranslationStyle": "wsl",
-        "suppressApplicationTitle": false,
-        "tabTitle": null
-      },
-      {
         "guid": "{b9573e29-e129-5e9b-859a-3745b6edbaaa}",
         "hidden": false,
         "icon": null,
@@ -485,24 +465,6 @@
         "hidden": true,
         "name": "Azure Cloud Shell",
         "source": "Windows.Terminal.Azure"
-      },
-      {
-        "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
-        "hidden": true,
-        "name": "Visual Studio Debug Console",
-        "source": "VSDebugConsole"
-      },
-      {
-        "guid": "{d917a1c3-5162-5746-866a-5facb3f5660a}",
-        "hidden": true,
-        "name": "Developer Command Prompt for VS 2022",
-        "source": "Windows.Terminal.VisualStudio"
-      },
-      {
-        "guid": "{2474276b-44f3-5269-b73c-2dc5a85fbb93}",
-        "hidden": true,
-        "name": "Developer PowerShell for VS 2022",
-        "source": "Windows.Terminal.VisualStudio"
       }
     ]
   },
