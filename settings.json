@@ -76,15 +76,6 @@
     },
     {
       "command": {
-        "action": "newWindow",
-        "commandline": "wsl -e fish -c \"nvim /mnt/c/Users/nicol/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json\"",
-        "profile": "{3ad42e7b-e073-5f3e-ac57-1c259ffa86a8}"
-      },
-      "id": "User.newWindow.WSLSettings",
-      "name": "Open settings (WSL)"
-    },
-    {
-      "command": {
         "action": "sendInput",
         "input": "\u001b[27;6;47~"
       },
@@ -441,7 +432,8 @@
         "startingDirectory": "~"
       },
       {
-        "guid": "{b9573e29-e129-5e9b-859a-3745b6edbaaa}",
+        "commandline": "wsl",
+        "guid": "{4cdc836f-7443-4d97-99b7-301028d0d59d}",
         "hidden": false,
         "icon": null,
         "name": "Ubuntu WSL",
