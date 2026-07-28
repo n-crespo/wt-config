@@ -432,13 +432,17 @@
         "startingDirectory": "~"
       },
       {
-        "commandline": "wsl",
-        "guid": "{4cdc836f-7443-4d97-99b7-301028d0d59d}",
-        "hidden": false,
-        "icon": null,
-        "name": "Ubuntu WSL",
-        "tabColor": "#802B08",
+        "commandline": "C:\\WINDOWS\\system32\\wsl.exe --distribution-id {6cc55f4d-9810-4823-a26f-a241748723ad}",
+        "guid": "{b9573e29-e129-5e9b-859a-3745b6edbaaa}",
+        "icon": "C:\\Users\\necresp\\AppData\\Local\\wsl\\{6cc55f4d-9810-4823-a26f-a241748723ad}\\shortcut.ico",
+        "name": "Ubuntu",
         "pathTranslationStyle": "wsl",
+        "startingDirectory": "~",
+        "suppressApplicationTitle": true,
+        "wsl.distribution-type": "ubuntu",
+        "wsl.distribution-version": "26.04",
+        "hidden": false,
+        "tabColor": "#802B08",
         "source": "Microsoft.WSL"
       },
       {
