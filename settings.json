@@ -538,7 +538,7 @@
       "tab": {
         "background": "#202124FF",
         "iconStyle": "default",
-        "showCloseButton": "never",
+        "showCloseButton": "always",
         "unfocusedBackground": "#0F0F0FFF"
       },
       "tabRow": {
