@@ -281,6 +281,10 @@
       "keys": "ctrl+alt+\\"
     },
     {
+      "id": "User.autoSplitPane",
+      "keys": "ctrl+\\"
+    },
+    {
       "id": "Terminal.ToggleFocusMode",
       "keys": "ctrl+shift+o"
     },
