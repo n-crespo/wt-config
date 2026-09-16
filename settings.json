@@ -404,7 +404,7 @@
       "font": {
         "axes": {},
         "builtinGlyphs": true,
-        "cellHeight": "1.7",
+        "cellHeight": "1.65",
         "cellWidth": "0.54",
         "colorGlyphs": true,
         "face": "JetBrainsMono Nerd Font",
@@ -412,7 +412,7 @@
           "calt": 0
         },
         "size": 9,
-        "weight": "normal"
+        "weight": "light"
       },
       "intenseTextStyle": "bold",
       "opacity": 100,
