@@ -506,7 +506,7 @@
   },
   "schemes": [
     {
-      "background": "#0B0B0B",
+      "background": "#101010",
       "black": "#1D1D1D",
       "blue": "#88A3BC",
       "brightBlack": "#898989",
@@ -519,13 +519,13 @@
       "brightYellow": "#FF9E3B",
       "cursorColor": "#FFFFFF",
       "cyan": "#8992A7",
-      "foreground": "#C5C9C5",
+      "foreground": "#FAFAFA",
       "green": "#8A9A7B",
       "name": "Macro",
       "purple": "#A292A3",
       "red": "#C4746E",
       "selectionBackground": "#2E2E2E",
-      "white": "#D6D6D6",
+      "white": "#FAFAFA",
       "yellow": "#C8AE81"
     }
   ],
