@@ -192,9 +192,9 @@
   "experimental.detectURLs": true,
   "firstWindowPreference": "defaultProfile",
   "focusFollowMouse": false,
-  "initialCols": 120,
+  "initialCols": 170,
   "initialPosition": ",",
-  "initialRows": 40,
+  "initialRows": 41,
   "keybindings": [
     {
       "id": "Terminal.OpenTabColorPicker",
